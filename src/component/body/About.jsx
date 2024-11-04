@@ -16,7 +16,7 @@ export default function About() {
               Magnam temporibus praesentium odio, 
               laudantium alias cupiditate repudiandae reprehenderit cum!
             </p>
-            div.flex
+            <div className="flex space-x-2 "></div>
           </div>
 
           <img
