@@ -1,4 +1,10 @@
 import rp from "../../assets/image/RP1.jpeg";
+import { BsLinkedin } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import { FaSquareFacebook } from "react-icons/fa6";
+import { AiFillTikTok } from "react-icons/ai";
+import { FaSquareXTwitter } from "react-icons/fa6";
+
 
 export default function Herosection() {
   return (
@@ -18,8 +24,25 @@ export default function Herosection() {
               className="border-[7px] bg-clip-border bg-gradient-to-br from-purple-400 to-orange-400 rounded-full w-40 h-40 object-cover"
             />
           </div>
-          <div className="pt-5 flex space-x-3 items-center justify-center">
-            <div className="py-2 px-2 rounded-full"></div>
+          <div className="pt-10 flex space-x-3 items-center justify-center">
+            <div className="py-3 px-3 rounded-full bg-white/20">
+              <BsLinkedin className="text-white text-xl font-bold" />
+            </div>
+            <div className="py-2 px-2 rounded-full bg-white/20">
+              <BsInstagram className="text-white text-xl font-bold" />
+            </div>
+            <div className="py-2 px-2 rounded-full bg-white/20">
+              <FaSquareFacebook className="text-white text-xl font-bold" />
+            </div>
+            <div className="py-2 px-2 rounded-full bg-white/20">
+              <AiFillTikTok className="text-white text-xl font-bold" />
+            </div>
+            <div className="py-2 px-2 rounded-full bg-white/20">
+              <FaSquareXTwitter className="text-white text-xl font-bold" />
+            </div>
+            <div className="py-2 px-2 rounded-full bg-white/20">
+              <BsInstagram className="text-white text-xl font-bold" />
+            </div>
           </div>
         </div>
       </div>
