@@ -1,4 +1,5 @@
 import aboutimg from "../../assets/image/RP2.jpeg"
+import { FaDownload } from "react-icons/fa";
 
 
 export default function About() {
@@ -17,14 +18,14 @@ export default function About() {
               alias cupiditate repudiandae reprehenderit cum!
             </p>
             <button className="font-semibold text-xl px-5 py-2 my-6 rounded-md text-white bg-purple-600 hover:bg-purple-500 flex justify-between items-center">
-              Téléchargez mon CV 
-              
+              Téléchargez mon CV
+              <FaDownload className="" />
             </button>
           </div>
 
           <img
             src={aboutimg}
-            alt={aboutimg} 
+            alt={aboutimg}
             className="md:w-80 md:h-80 w-full rounded-md border-[7px] border-slate-300  h-80 object-cover"
           />
         </div>
