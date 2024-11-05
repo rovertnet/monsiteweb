@@ -4,6 +4,7 @@ import { BsInstagram } from "react-icons/bs";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 
 export default function Herosection() {
@@ -24,7 +25,7 @@ export default function Herosection() {
               className="border-[7px] bg-clip-border bg-gradient-to-br from-purple-400 to-orange-400 rounded-full w-40 h-40 object-cover"
             />
           </div>
-          <div className="pt-10 flex space-x-3 items-center justify-center">
+          <div className="pt-10 grid grid-cols-2 md:grid-cols-none gap-3">
             <div className="py-3 px-3 rounded-full bg-white/20">
               <BsLinkedin className="text-white text-xl font-bold" />
             </div>
@@ -41,7 +42,7 @@ export default function Herosection() {
               <FaSquareXTwitter className="text-white text-xl font-bold" />
             </div>
             <div className="py-3 px-3 rounded-full bg-white/20">
-              <BsInstagram className="text-white text-xl font-bold" />
+              <FaGithub className="text-white text-xl font-bold" />
             </div>
           </div>
         </div>
