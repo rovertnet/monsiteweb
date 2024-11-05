@@ -5,7 +5,7 @@ import { MdMenu } from "react-icons/md";
 export default function Navbar() {
   return (
     <>
-      <div className="fixed bottom-0 md:top-0 left-0 right-0 bg-gray-200/5 md:bg-transparent px-5 py-2 md:px-5 md:py-2 mx-6 md:mx-36 my-5 md:my-5 shadow-md rounded-full md:rounded-md">
+      <div className="fixed bottom-0 md:bottom-0 left-0 right-0 bg-white/20 md:bg-green-100 px-5 py-2 md:px-5 md:py-2 mx-6 md:mx-80 my-5 md:my-5 shadow-md rounded-full md:rounded-3xl">
         <div className="flex justify-between items-center">
           <img src={logo} alt={logo} className="w-9 md:w-10 md:h-10 h-9" />
           <button className="bg-slate-900 border-[1px] border-slate-300 px-3 py-2 rounded-full ">
