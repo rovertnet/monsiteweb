@@ -19,7 +19,7 @@ export default function About() {
             </p>
             <button className="font-semibold text-xl px-5 py-2 my-6 rounded-md text-white bg-purple-600 hover:bg-purple-500 flex justify-between items-center">
               Téléchargez mon CV
-              <FaDownload className="" />
+              <FaDownload />
             </button>
           </div>
 

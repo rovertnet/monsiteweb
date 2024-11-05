@@ -18,6 +18,9 @@ export default function Herosection() {
               className="border-[7px] bg-clip-border bg-gradient-to-br from-purple-400 to-orange-400 rounded-full w-40 h-40 object-cover"
             />
           </div>
+          <div className="pt-5 flex space-x-3 items-center justify-center">
+            <div className="py-2 px-2 rounded-full"></div>
+          </div>
         </div>
       </div>
     </>
