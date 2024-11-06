@@ -26,7 +26,7 @@ export default function About() {
           <img
             src={aboutimg}
             alt={aboutimg}
-            className="md:w-80 md:h-80 w-full rounded-md border-[7px] border-slate-300  h-80 object-cover"
+            className="md:w-80 md:h-80 w-full rounded-md border-[7px] border-slate-100  h-80 object-cover"
           />
         </div>
       </div>

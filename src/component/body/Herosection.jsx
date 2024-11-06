@@ -26,22 +26,22 @@ export default function Herosection() {
             />
           </div>
           <div className="pt-10 grid grid-cols-3 md:grid-flow-col gap-3">
-            <div className="py-3 px-3 rounded-full bg-white/20">
+            <div className="py-3 px-3 rounded-full bg-white/10">
               <BsLinkedin className="text-white text-xl font-bold" />
             </div>
-            <div className="py-3 px-3 rounded-full bg-white/20">
+            <div className="py-3 px-3 rounded-full bg-white/10">
               <BsInstagram className="text-white text-xl font-bold" />
             </div>
-            <div className="py-3 px-3 rounded-full bg-white/20">
+            <div className="py-3 px-3 rounded-full bg-white/10">
               <FaSquareFacebook className="text-white text-xl font-bold" />
             </div>
-            <div className="py-3 px-3 rounded-full bg-white/20">
+            <div className="py-3 px-3 rounded-full bg-white/10">
               <FaTiktok className="text-white text-xl font-bold" />
             </div>
-            <div className="py-3 px-3 rounded-full bg-white/20">
+            <div className="py-3 px-3 rounded-full bg-white/10">
               <FaSquareXTwitter className="text-white text-xl font-bold" />
             </div>
-            <div className="py-3 px-3 rounded-full bg-white/20">
+            <div className="py-3 px-3 rounded-full bg-white/10">
               <FaGithub className="text-white text-xl font-bold" />
             </div>
           </div>
