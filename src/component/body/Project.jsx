@@ -2,6 +2,10 @@
 
 export default function Project() {
   return (
-    <div>Project</div>
+    <>
+      <div className="block">
+        <div className=""></div>
+      </div>
+    </>
   )
 }
