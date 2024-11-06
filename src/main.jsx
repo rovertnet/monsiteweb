@@ -7,7 +7,7 @@ import Skils from './component/body/Skils.jsx'
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div className="">
+    <div className="bg-slate-950 h-screen">
       <BrowserRouter>
         <Routes>
           <Route path="/" exact={true} element={<App />} />
