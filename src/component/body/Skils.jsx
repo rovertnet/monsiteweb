@@ -14,8 +14,6 @@ export default function ColorTabs() {
   };
 
   return (
-    <div className="block py-10 ">
-      <div className="flex justify-center items-center h-screen">
         <Box sx={{ width: "100%" }}>
           <Tabs
             value={value}
@@ -29,8 +27,6 @@ export default function ColorTabs() {
             <Tab value="three" label="Item Three" />
           </Tabs>
         </Box>
-      </div>
-    </div>
   );
 }
 
