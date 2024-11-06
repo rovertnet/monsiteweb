@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Skils from './component/body/Skils.jsx'
+import About from './component/body/About.jsx'
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -12,6 +13,7 @@ createRoot(document.getElementById("root")).render(
         <Routes>
           <Route path="/" exact={true} element={<App />} />
           <Route path="/skills" exact={true} element={<Skils />} />
+          <Route path="/about" exact={true} element={<About />} />
         </Routes>
       </BrowserRouter>
     </div>
