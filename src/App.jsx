@@ -1,4 +1,4 @@
-import About from "./component/body/About";
+
 import Herosection from "./component/body/Herosection";
 
 
