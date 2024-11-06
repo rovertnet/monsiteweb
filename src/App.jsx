@@ -8,7 +8,6 @@ function App() {
     <>
       <div className="bg-slate-950 h-screen">
         <Herosection />
-        <About />
       </div>
     </>
   );
