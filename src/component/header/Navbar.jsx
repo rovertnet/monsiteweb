@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/image/mon_logo.png";
 import { MdMenu } from "react-icons/md";
 
@@ -27,23 +28,25 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="space-y-1 px-10 pb-3 sm:px-3">
-        {navigation.map((item) => (
-          <NavLink
-            key={item.name}
-            to={item.to}
-            className={({ isActive }) =>
-              classNames(
-                isActive
-                  ? "bg-green-300 text-white"
-                  : "text-purple hover:bg-green-300 hover:text-white",
-                "block rounded-md px-3 py-2 text-lg font-medium text-green-700"
-              )
-            }
-          >
-            {item.name}
-          </NavLink>
-        ))}
+      <div className="md:hidden">
+        <div className="space-y-1 px-10 pb-3 sm:px-3">
+          {navigation.map((item) => (
+            <NavLink
+              key={item.name}
+              to={item.to}
+              className={({ isActive }) =>
+                classNames(
+                  isActive
+                    ? "bg-green-300 text-white"
+                    : "text-purple hover:bg-green-300 hover:text-white",
+                  "block rounded-md px-3 py-2 text-lg font-medium text-green-700"
+                )
+              }
+            >
+              {item.name}
+            </NavLink>
+          ))}
+        </div>
       </div>
     </>
   );
