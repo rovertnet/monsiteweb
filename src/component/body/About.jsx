@@ -5,8 +5,8 @@ import { FaDownload } from "react-icons/fa";
 export default function About() {
   return (
     <>
-      <div className="block bg-black">
-        <div className="flex justify-center items-center h-screen md:h-screen">
+      <div className="block bg-black pt-5 pb-10">
+        <div className="flex justify-center items-center h-screen">
           <div className="flex flex-col-reverse md:flex-row gap-10 md:gap-40 md:mx-36 mx-6">
             <div className=" flex flex-col">
               <h2 className="font-bold uppercase text-transparent bg-clip-text bg-gradient-to-r from-purple-700 from-10% via-white via-30% to-orange-500 to-90% ... text-2xl md:text-text-3xl pt-3 pb-5">
@@ -37,7 +37,7 @@ export default function About() {
             <img
               src={aboutimg}
               alt={aboutimg}
-              className="md:w-96 md:h-96 w-full rounded-md border-[10px] border-slate-100  h-80 object-cover"
+              className="md:w-96 md:h-96 w-96 rounded-md border-[10px] border-slate-100  h-96 object-cover"
             />
           </div>
         </div>
