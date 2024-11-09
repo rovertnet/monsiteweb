@@ -32,8 +32,11 @@ export default function Navbar() {
         <div className="space-y-1 px-10 pb-3 sm:px-3">
           {navigation.map((item) => (
             <NavLink key={item.name} to={item.to} className={({isActive}) => classNames(
-              isActive
-            )}></NavLink>
+              isActive 
+              ? "" : "", ""
+            )}>
+              {item.name}
+            </NavLink>
           ))}
         </div>
       </div>
