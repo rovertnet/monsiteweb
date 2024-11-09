@@ -26,11 +26,12 @@ export default function About() {
                 officia alias? Magnam temporibus praesentium odio, laudantium
                 alias cupiditate repudiandae reprehenderit cum!
               </p>
-              
+
               <button className="font-semibold text-xl px-5 py-2 mt-6 mb-6 rounded-md text-white bg-purple-600 hover:bg-purple-500 flex justify-between items-center">
                 Téléchargez mon CV
                 <FaDownload />
               </button>
+              
             </div>
 
             <img
