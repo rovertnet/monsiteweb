@@ -12,12 +12,21 @@ export default function About() {
               <h2 className="font-bold uppercase text-transparent bg-clip-text bg-gradient-to-r from-purple-700 from-10% via-white via-30% to-orange-500 to-90% ... text-2xl md:text-text-3xl pt-3 pb-5">
                 A propos de ROBERT ROVERTNET
               </h2>
+
               <p className="font-medium text-lg text-slate-300 py-3 text-justify md:max-w-xl">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
                 eum rerum minus earum animi voluptatum deleniti laudantium ad
                 officia alias? Magnam temporibus praesentium odio, laudantium
                 alias cupiditate repudiandae reprehenderit cum!
               </p>
+
+              <p className="font-medium text-lg text-slate-300 py-3 text-justify md:max-w-xl">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                eum rerum minus earum animi voluptatum deleniti laudantium ad
+                officia alias? Magnam temporibus praesentium odio, laudantium
+                alias cupiditate repudiandae reprehenderit cum!
+              </p>
+              
               <button className="font-semibold text-xl px-5 py-2 mt-6 mb-6 rounded-md text-white bg-purple-600 hover:bg-purple-500 flex justify-between items-center">
                 Téléchargez mon CV
                 <FaDownload />
@@ -27,7 +36,7 @@ export default function About() {
             <img
               src={aboutimg}
               alt={aboutimg}
-              className="md:w-80 md:h-80 w-full rounded-md border-[7px] border-slate-100  h-80 object-cover"
+              className="md:w-96 md:h-96 w-full rounded-md border-[10px] border-slate-100  h-80 object-cover"
             />
           </div>
         </div>
