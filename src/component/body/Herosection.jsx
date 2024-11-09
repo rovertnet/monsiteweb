@@ -25,7 +25,7 @@ export default function Herosection() {
               className="border-[7px] bg-clip-border bg-gradient-to-br from-purple-400 to-orange-400 rounded-full w-40 h-40 object-cover"
             />
           </div>
-          <div className="pt-10 grid grid-cols-3 md:grid-flow-col gap-3">
+          <div className="pt-10 grid grid-cols-3 md:grid-flow-col gap-3 z-10">
             <div className="py-3 px-3 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer">
               <BsLinkedin className="text-white text-xl font-bold" />
             </div>
