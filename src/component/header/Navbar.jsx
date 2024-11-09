@@ -17,17 +17,6 @@ function classNames(...classes) {
 
 export default function Navbar() {
 
-  const [activeItem, setActiveItem] = useState("Home");
-  const [isOpenMenu, setIsopenMenu] = useState(true)
-
-  const handleItemClick = (item) => {
-    setActiveItem(item);
-  };
-
-  const showmenu = () =>{
-    setIsopenMenu(!isOpenMenu)
-  }
-
   return (
     <>
       <div className="fixed bottom-0 md:bottom-0 left-0 right-0 bg-white/20 md:bg-white/20 px-5 py-2 md:px-5 md:py-2 mx-6 md:mx-96 my-5 md:my-5 shadow-md rounded-full md:rounded-3xl">
