@@ -26,22 +26,22 @@ export default function Herosection() {
             />
           </div>
           <div className="pt-10 grid grid-cols-3 md:grid-flow-col gap-3">
-            <div className="py-3 px-3 rounded-full bg-white/10">
+            <div className="py-3 px-3 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer">
               <BsLinkedin className="text-white text-xl font-bold" />
             </div>
-            <div className="py-3 px-3 rounded-full bg-white/10">
+            <div className="py-3 px-3 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer">
               <BsInstagram className="text-white text-xl font-bold" />
             </div>
-            <div className="py-3 px-3 rounded-full bg-white/10">
+            <div className="py-3 px-3 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer">
               <FaSquareFacebook className="text-white text-xl font-bold" />
             </div>
-            <div className="py-3 px-3 rounded-full bg-white/10">
+            <div className="py-3 px-3 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer">
               <FaTiktok className="text-white text-xl font-bold" />
             </div>
-            <div className="py-3 px-3 rounded-full bg-white/10">
+            <div className="py-3 px-3 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer">
               <FaSquareXTwitter className="text-white text-xl font-bold" />
             </div>
-            <div className="py-3 px-3 rounded-full bg-white/10">
+            <div className="py-3 px-3 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer">
               <FaGithub className="text-white text-xl font-bold" />
             </div>
           </div>
