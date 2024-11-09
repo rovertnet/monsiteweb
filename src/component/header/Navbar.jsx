@@ -1,9 +1,16 @@
 
+import { useState } from "react";
 import logo from "../../assets/image/mon_logo.png";
 import { MdMenu } from "react-icons/md";
 
 
 export default function Navbar() {
+
+  const [activeItem, setActiveItem] = useState("Home");
+
+  const handleItemClick = (item) => {
+    setActiveItem(item);
+  };
 
   const navigation = [
     { name: "Home", to: "/" },
