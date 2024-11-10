@@ -4,6 +4,7 @@ import logo from "../../assets/image/mon_logo.png";
 import { MdMenu } from "react-icons/md";
 import { Avatar, Menu, MenuItem } from "@mui/material";
 import { IoHome } from "react-icons/io5";
+import { AccountBox, AssistWalker, Home } from "@mui/icons-material";
 
 
 
@@ -71,15 +72,15 @@ export default function Navbar() {
             anchorOrigin={{ horizontal: "right", vertical: "" }}
             className="px-5 md:px-5 py-3 md:py-3"
           >
-            <MenuItem onClick={handleClose}>
-              <IoHome className="font-bold text-xl text-gray-600 pr-2" /> Accueil
+            <MenuItem onClick={handleClose} className="flex space-x-3">
+              <Home /> Accueil
             </MenuItem>
             <MenuItem onClick={handleClose}>
-              <Avatar /> A propos
+              <AccountBox /> A propos
             </MenuItem>
 
             <MenuItem onClick={handleClose}>
-              <Avatar /> Services
+              <AssistWalker /> Services
             </MenuItem>
 
             <MenuItem onClick={handleClose}>
