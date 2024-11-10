@@ -58,11 +58,11 @@ export default function Navbar() {
                     content: '""',
                     display: "block",
                     position: "absolute",
-                    top: 0,
-                    right: 14,
+                    bottom: 19,
+                    right: 5,
+                    left: 20,
                     width: 10,
                     height: 10,
-                    bgcolor: "background.paper",
                     zIndex: 0,
                   },
                 },
@@ -75,19 +75,19 @@ export default function Navbar() {
             <MenuItem onClick={handleClose} className="flex space-x-3">
               <Home /> Accueil
             </MenuItem>
-            <MenuItem onClick={handleClose}>
+            <MenuItem onClick={handleClose} className="flex space-x-3">
               <AccountBox /> A propos
             </MenuItem>
 
-            <MenuItem onClick={handleClose}>
+            <MenuItem onClick={handleClose} className="flex space-x-3">
               <AssistWalker /> Services
             </MenuItem>
 
-            <MenuItem onClick={handleClose}>
+            <MenuItem onClick={handleClose} className="flex space-x-3">
               <Lightbulb /> Projets
             </MenuItem>
 
-            <MenuItem onClick={handleClose}>
+            <MenuItem onClick={handleClose} className="flex space-x-3">
               <AutoStories /> Compétences
             </MenuItem>
           </Menu>
