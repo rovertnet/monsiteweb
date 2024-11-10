@@ -25,7 +25,9 @@ export default function Navbar() {
             <div className="flex justify-between items-center">
               <img src={logo} alt={logo} className="w-9 md:w-10 md:h-10 h-9" />
               <button className="bg-slate-900 border-[1px] border-slate-300 px-2 py-2 rounded-full ">
-                <MdMenu size={22} className="text-slate-200" />
+                {open ? (<MdMenu size={22} className="text-slate-200" aria-hidden="true" />) 
+                      : (<MdMenu size={22} className="text-slate-200" aria-hidden="true"/>)
+                }
               </button>
             </div>
           </div>
