@@ -2,8 +2,9 @@
 import { useState } from "react";
 import logo from "../../assets/image/mon_logo.png";
 import { MdMenu } from "react-icons/md";
-import { Avatar, Divider, ListItemIcon, Menu, MenuItem } from "@mui/material";
-import { PersonAdd, Settings } from "@mui/icons-material";
+import { Avatar, Menu, MenuItem } from "@mui/material";
+import { IoHome } from "react-icons/io5";
+
 
 
 export default function Navbar() {
@@ -68,10 +69,10 @@ export default function Navbar() {
             }}
             transformOrigin={{ horizontal: "right", vertical: "bottom" }}
             anchorOrigin={{ horizontal: "right", vertical: "" }}
-            className="dropdown"
+            className="px-5 md:px-5 py-3 md:py-3"
           >
             <MenuItem onClick={handleClose}>
-              <Avatar /> Accueil
+              <IoHome className="font-bold text-xl text-gray-600 pr-2" /> Accueil
             </MenuItem>
             <MenuItem onClick={handleClose}>
               <Avatar /> A propos
