@@ -34,7 +34,7 @@ export default function Navbar() {
       </div>
 
       <div className="md:hidden">
-        <div className="menu bottom-10">
+        <div className="menu">
           <Menu
             anchorEl={anchorEl}
             id="account-menu"
