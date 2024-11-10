@@ -34,7 +34,7 @@ export default function Navbar() {
       </div>
 
       <div className="md:hidden">
-        <div className="menu">
+        <div className=" bg-white/10">
           <Menu
             anchorEl={anchorEl}
             id="account-menu"
