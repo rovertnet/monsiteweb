@@ -66,8 +66,9 @@ export default function Navbar() {
               },
             },
           }}
-          transformOrigin={{ horizontal: "right", vertical: "top" }}
-          anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
+          transformOrigin={{ horizontal: "right", vertical: "bottom" }}
+          anchorOrigin={{ horizontal: "right", vertical: "top" }}
+          className="dropdown"
         >
           <MenuItem onClick={handleClose}>
             <Avatar /> Profile
