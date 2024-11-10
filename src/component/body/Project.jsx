@@ -8,9 +8,9 @@ import Typography from "@mui/material/Typography";
 export default function Project() {
   return (
     <>
-      <div className="block">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-10">
-          <Card sx={{ maxWidth: 345 }}>
+      <div className=" flex justify-center items-center h-screen">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 ">
+          <Card sx={{ maxWidth: 345 }} className="bg-white/15">
             <CardMedia
               component="img"
               alt="green iguana"
