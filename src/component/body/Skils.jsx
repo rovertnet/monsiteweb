@@ -8,7 +8,9 @@ export default function Skils() {
           Education de ROBERT ROVERTNET
         </h2>
 
-        <div className=""></div>
+        <div className="">
+          
+        </div>
       </div>
     </>
   );
