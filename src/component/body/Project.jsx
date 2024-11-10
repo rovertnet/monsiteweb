@@ -4,19 +4,15 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import pro1 from "../../assets/image/pro1.jpg"
 
 export default function Project() {
   return (
     <>
-      <div className=" flex justify-center items-center h-screen">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 ">
+      <div className=" flex justify-center items-center py-14">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 my-10">
           <Card sx={{ maxWidth: 345 }} className="bg-white/15">
-            <CardMedia
-              component="img"
-              alt="green iguana"
-              height="140"
-              image="/static/images/cards/contemplative-reptile.jpg"
-            />
+            <CardMedia component="img" alt={pro1} height="100" image={pro1} />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 Lizard
@@ -33,12 +29,7 @@ export default function Project() {
           </Card>
 
           <Card sx={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              alt="green iguana"
-              height="140"
-              image="/static/images/cards/contemplative-reptile.jpg"
-            />
+            <CardMedia component="img" alt={pro1} height="100" image={pro1} />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 Lizard
@@ -55,12 +46,7 @@ export default function Project() {
           </Card>
 
           <Card sx={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              alt="green iguana"
-              height="140"
-              image="/static/images/cards/contemplative-reptile.jpg"
-            />
+            <CardMedia component="img" alt={pro1} height="100" image={pro1} />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 Lizard
@@ -77,12 +63,7 @@ export default function Project() {
           </Card>
 
           <Card sx={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              alt="green iguana"
-              height="140"
-              image="/static/images/cards/contemplative-reptile.jpg"
-            />
+            <CardMedia component="img" alt={pro1} height="100" image={pro1} />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 Lizard
@@ -99,12 +80,7 @@ export default function Project() {
           </Card>
 
           <Card sx={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              alt="green iguana"
-              height="140"
-              image="/static/images/cards/contemplative-reptile.jpg"
-            />
+            <CardMedia component="img" alt={pro1} height="100" image={pro1} />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 Lizard
@@ -121,12 +97,7 @@ export default function Project() {
           </Card>
 
           <Card sx={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              alt="green iguana"
-              height="140"
-              image="/static/images/cards/contemplative-reptile.jpg"
-            />
+            <CardMedia component="img" alt={pro1} height="100" image={pro1} />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 Lizard
