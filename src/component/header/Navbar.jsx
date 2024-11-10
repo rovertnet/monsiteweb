@@ -60,14 +60,13 @@ export default function Navbar() {
                   width: 10,
                   height: 10,
                   bgcolor: "background.paper",
-                  transform: "translateY(-50%) rotate(45deg)",
                   zIndex: 0,
                 },
               },
             },
           }}
           transformOrigin={{ horizontal: "right", vertical: "bottom" }}
-          anchorOrigin={{ horizontal: "right" }}
+          anchorOrigin={{ horizontal: "right", vertical: "" }}
           className="dropdown"
         >
           <MenuItem onClick={handleClose}>
