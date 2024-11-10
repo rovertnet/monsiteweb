@@ -4,7 +4,7 @@ import logo from "../../assets/image/mon_logo.png";
 import { MdMenu } from "react-icons/md";
 import { Avatar, Menu, MenuItem } from "@mui/material";
 import { IoHome } from "react-icons/io5";
-import { AccountBox, AssistWalker, Home } from "@mui/icons-material";
+import { AccountBox, AssistWalker, AutoStories, Home, Lightbulb } from "@mui/icons-material";
 
 
 
@@ -84,11 +84,11 @@ export default function Navbar() {
             </MenuItem>
 
             <MenuItem onClick={handleClose}>
-              <Avatar /> Projets
+              <Lightbulb /> Projets
             </MenuItem>
 
             <MenuItem onClick={handleClose}>
-              <Avatar /> Compétences
+              <AutoStories /> Compétences
             </MenuItem>
           </Menu>
         </div>
