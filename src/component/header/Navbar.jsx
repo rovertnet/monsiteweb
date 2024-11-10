@@ -67,7 +67,7 @@ export default function Navbar() {
             },
           }}
           transformOrigin={{ horizontal: "right", vertical: "bottom" }}
-          anchorOrigin={{ horizontal: "right", vertical: "top" }}
+          anchorOrigin={{ horizontal: "right" }}
           className="dropdown"
         >
           <MenuItem onClick={handleClose}>
