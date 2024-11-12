@@ -2,6 +2,7 @@
 import { useState } from "react";
 import logo from "../../assets/image/mon_logo.png";
 import { MdMenu } from "react-icons/md";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -13,10 +14,10 @@ export default function Navbar() {
   }
   
   const navItems = [
-    { name: "Accueil", to: "/" },
-    { name: "A propos", to: "/about" },
-    { name: "Stack", to: "/skills" },
-    { name: "Projet", to: "/projet" },
+    { link: "Accueil", to: "/" },
+    { link: "A propos", to: "/about" },
+    { link: "Stack", to: "/skills" },
+    { link: "Projet", to: "/projet" },
   ];
 
 
@@ -35,8 +36,25 @@ export default function Navbar() {
       </div>
 
       <div className="md:hidden">
-        <div className=" bg-white/10">
-          
+        <div
+          className={` space-y-4 mt-24 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-11 dark:bg-white/20 bg-slate-900/10 backdrop-blur-md ${
+            isOpenMenu
+              ? "block justify-center fixed top-0 right-0 left-0"
+              : "hidden "
+          }`}
+        >
+          {navItems.map(({ link, to }) => (
+            <NavLink
+              spy={true}
+              smooth={true}
+              offset={-80}
+              key={link}
+              to={to}
+              onClick={toggleMenu}
+            >
+              {link}
+            </NavLink>
+          ))}
         </div>
       </div>
     </>
