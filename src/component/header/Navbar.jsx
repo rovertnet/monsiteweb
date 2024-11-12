@@ -2,7 +2,7 @@
 import { useState } from "react";
 import logo from "../../assets/image/mon_logo.png";
 import { MdMenu } from "react-icons/md";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
@@ -12,14 +12,6 @@ export default function Navbar() {
   const toggleMenu = () => {
     setIsOpenMenu(!isOpenMenu)
   }
-  
-  const navItems = [
-    { link: "Accueil", to: "/" },
-    { link: "A propos", to: "/about" },
-    { link: "Stack", to: "/skills" },
-    { link: "Projet", to: "/projet" },
-  ];
-
 
   return (
     <>
@@ -43,18 +35,9 @@ export default function Navbar() {
               : "hidden "
           }`}
         >
-          {navItems.map(({ link, to }) => (
-            <NavLink
-              spy={true}
-              smooth={true}
-              offset={-80}
-              key={link}
-              to={to}
-              onClick={toggleMenu}
-            >
-              {link}
-            </NavLink>
-          ))}
+          <Link to="/" className="">
+            Accueil
+          </Link>
         </div>
       </div>
     </>
