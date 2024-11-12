@@ -2,22 +2,22 @@
 import { useState } from "react";
 import logo from "../../assets/image/mon_logo.png";
 import { MdMenu } from "react-icons/md";
-import { Avatar, Menu, MenuItem } from "@mui/material";
-import { IoHome } from "react-icons/io5";
-import { AccountBox, AssistWalker, AutoStories, Home, Lightbulb } from "@mui/icons-material";
 
 
 
 export default function Navbar() {
 
-  const [anchorEl, setAnchorEl] = useState(null);
-  const open = Boolean(anchorEl);
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+  const [isOpenMenu, setIsOpenMenu] = useState();
+  const toggleMenu = () => {
+    setIsOpenMenu(!isOpenMenu)
+  }
+  
+  const navItems = [
+    { name: "Accueil", to: "/" },
+    { name: "A propos", to: "about" },
+    { name: "Stack", to: "skills" },
+  ];
+
 
   return (
     <>
@@ -26,7 +26,7 @@ export default function Navbar() {
           <img src={logo} alt={logo} className="w-9 md:w-10 md:h-10 h-9" />
           <button
             className="bg-slate-900 border-[1px] border-slate-300 px-2 py-2 rounded-full "
-            onClick={handleClick}
+            onClick={toggleMenu}
           >
             <MdMenu size={22} className="text-slate-200" aria-hidden="true" />
           </button>
@@ -35,62 +35,7 @@ export default function Navbar() {
 
       <div className="md:hidden">
         <div className=" bg-white/10">
-          <Menu
-            anchorEl={anchorEl}
-            id="account-menu"
-            open={open}
-            onClose={handleClose}
-            onClick={handleClose}
-            slotProps={{
-              paper: {
-                elevation: 0,
-                sx: {
-                  overflow: "visible",
-                  filter: "drop-shadow(0px 2px 8px rgba(0,0,0,0.32))",
-                  mt: 1.5,
-                  "& .MuiAvatar-root": {
-                    width: 32,
-                    height: 32,
-                    ml: -0.5,
-                    mr: 1,
-                  },
-                  "&::before": {
-                    content: '""',
-                    display: "block",
-                    position: "absolute",
-                    bottom: 19,
-                    right: 5,
-                    left: 20,
-                    width: 10,
-                    height: 10,
-                    zIndex: 0,
-                  },
-                },
-              },
-            }}
-            transformOrigin={{ horizontal: "right", vertical: "bottom" }}
-            anchorOrigin={{ horizontal: "right", vertical: "" }}
-            className="px-5 md:px-5 py-3 md:py-3"
-          >
-            <MenuItem onClick={handleClose} className="flex space-x-3">
-              <Home /> Accueil
-            </MenuItem>
-            <MenuItem onClick={handleClose} className="flex space-x-3">
-              <AccountBox /> A propos
-            </MenuItem>
-
-            <MenuItem onClick={handleClose} className="flex space-x-3">
-              <AssistWalker /> Services
-            </MenuItem>
-
-            <MenuItem onClick={handleClose} className="flex space-x-3">
-              <Lightbulb /> Projets
-            </MenuItem>
-
-            <MenuItem onClick={handleClose} className="flex space-x-3">
-              <AutoStories /> Compétences
-            </MenuItem>
-          </Menu>
+          
         </div>
       </div>
     </>
