@@ -38,11 +38,19 @@ export default function Navbar() {
 
       <div className="">
         <div
-          className={`bg-white/10 px-5 py-5 my-36 ml-36 mr-10 rounded-lg ${
-            openMenu ? "block fixed bottom-0 right-96 left-96" : "hidden "
+          className={`bg-white/10 px-5 py-5 my-36 mx-24 md:mx-[600px] rounded-lg ${
+            openMenu
+              ? "block fixed bottom-0 md:bottom-0 right-O left-0"
+              : "hidden "
           }`}
         >
-          <div className="fle"></div>
+          <div className="flex justify-center items-center flex-col">
+            <h1 className="text-white">Element</h1>
+            <h1 className="text-white">Element</h1>
+            <h1 className="text-white">Element</h1>
+            <h1 className="text-white">Element</h1>
+            <h1 className="text-white">Element</h1>
+          </div>
         </div>
       </div>
     </>
