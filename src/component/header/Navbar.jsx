@@ -5,7 +5,7 @@ import logo from "../../assets/image/mon_logo.png";
 import { useState } from "react";
 
 export default function Navbar() {
-  const [openMenu, setOpenMenu] = useState(true)
+  const [openMenu, setOpenMenu] = useState(false)
 
   const toggleMenu = () => {
     setOpenMenu(!openMenu)
