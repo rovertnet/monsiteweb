@@ -4,8 +4,6 @@ import logo from "../../assets/image/mon_logo.png";
 import { MdMenu } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-
-
 export default function Navbar() {
 
   const [isOpenMenu, setIsOpenMenu] = useState();
