@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
 
-  const [isOpenMenu, setIsOpenMenu] = useState();
+  const [isOpenMenu, setIsOpenMenu] = useState(false);
   const toggleMenu = () => {
     setIsOpenMenu(!isOpenMenu)
   }
