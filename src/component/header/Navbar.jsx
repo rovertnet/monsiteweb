@@ -36,12 +36,14 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="md:hidden hidden">
+      <div className="">
         <div
-          className={`bg-white/10 px-5 py-5 my-10 mx-10 ${
-            openMenu ? "block fixed bottom-0 right-0 left-0" : "hidden "
+          className={`bg-white/10 px-5 py-5 my-36 ml-36 mr-10 rounded-lg ${
+            openMenu ? "block fixed bottom-0 right-96 left-96" : "hidden "
           }`}
-        ></div>
+        >
+          <div className="fle"></div>
+        </div>
       </div>
     </>
   );
