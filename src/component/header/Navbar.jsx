@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <img src={logo} alt={logo} className="w-9 md:w-10 md:h-10 h-9" />
           <button
-            className="bg-slate-900 border-[1px] border-slate-300 px-2 py-2 rounded-full "
+            className="bg-slate-900 border-[1px] border-slate-300 px-2 py-2 rounded-full cursor-pointer"
             onClick={toggleMenu}
           >
             {openMenu ? (
@@ -38,19 +38,17 @@ export default function Navbar() {
 
       <div className="">
         <div
-          className={`bg-white/10 px-20 py-5 my-28 mx-24 md:mx-[300px] rounded-lg ${
+          className={`bg-white/10 px-20 py-5 my-20 mx-24 md:mx-[300px] rounded-lg space-y-8 ${
             openMenu
               ? "block fixed bottom-0 md:bottom-0 right-O left-0"
               : "hidden "
           }`}
         >
-          <div className="flex justify-center items-center flex-col">
-            <h1 className="text-white">Element</h1>
-            <h1 className="text-white">Element</h1>
-            <h1 className="text-white">Element</h1>
-            <h1 className="text-white">Element</h1>
-            <h1 className="text-white">Element</h1>
-          </div>
+          <h1 className="text-white">Element</h1>
+          <h1 className="text-white">Element</h1>
+          <h1 className="text-white">Element</h1>
+          <h1 className="text-white">Element</h1>
+          <h1 className="text-white">Element</h1>
         </div>
       </div>
     </>
