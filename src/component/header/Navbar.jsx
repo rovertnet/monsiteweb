@@ -20,13 +20,13 @@ export default function Navbar() {
             onClick={toggleMenu}
           >
             {openMenu ? (
-              <HiMenuAlt4
+              <IoMdClose
                 size={22}
                 className="text-slate-200"
                 aria-hidden="true"
               />
             ) : (
-              <IoMdClose
+              <HiMenuAlt4
                 size={22}
                 className="text-slate-200"
                 aria-hidden="true"
@@ -41,9 +41,7 @@ export default function Navbar() {
           className={`bg-white/10 px-5 py-5 my-10 mx-10 ${
             openMenu ? "block fixed bottom-0 right-0 left-0" : "hidden "
           }`}
-        >
-          
-        </div>
+        ></div>
       </div>
     </>
   );
