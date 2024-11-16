@@ -5,14 +5,14 @@ import logo from "../../assets/image/mon_logo.png";
 import { useState } from "react";
 
 export default function Navbar() {
-  const [openMenu, setOpenMenu] = useState(false)
+  const [openMenu, setOpenMenu] = useState(true)
 
   const toggleMenu = () => {
     setOpenMenu(!openMenu)
   }
   return (
     <>
-      <div className="fixed bottom-0 md:bottom-0 left-0 right-0 bg-white/20 md:bg-white/20 px-5 py-2 md:px-5 md:py-2 mx-6 md:mx-96 my-5 md:my-5 shadow-md rounded-full md:rounded-3xl">
+      <div className="fixed bottom-0 md:bottom-0 left-0 right-0 bg-white/20 md:bg-white/20 border-[1px] border-slate-300 px-5 py-2 md:px-5 md:py-2 mx-6 md:mx-[] my-5 md:my-5 shadow-md rounded-full md:rounded-3xl">
         <div className="flex justify-between items-center">
           <img src={logo} alt={logo} className="w-9 md:w-10 md:h-10 h-9" />
           <button
