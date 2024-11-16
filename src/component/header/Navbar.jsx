@@ -36,9 +36,14 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className={`bg-white/10 px-5 py-5 my-10 mx-10 ${
-          openMenu ? "block fixed bottom-0 right-0 left-0" : "hidden "}`}>
-            
+      <div className="md:hidden hidden">
+        <div
+          className={`bg-white/10 px-5 py-5 my-10 mx-10 ${
+            openMenu ? "block fixed bottom-0 right-0 left-0" : "hidden "
+          }`}
+        >
+          
+        </div>
       </div>
     </>
   );
