@@ -38,7 +38,7 @@ export default function Navbar() {
 
       <div className="">
         <div
-          className={`bg-white/10 px-5 py-5 my-36 mx-24 md:mx-[600px] rounded-lg ${
+          className={`bg-white/10 px-20 py-5 my-28 mx-24 md:mx-[300px] rounded-lg ${
             openMenu
               ? "block fixed bottom-0 md:bottom-0 right-O left-0"
               : "hidden "
