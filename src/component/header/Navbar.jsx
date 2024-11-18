@@ -3,6 +3,7 @@ import { IoMdClose } from "react-icons/io";
 
 import logo from "../../assets/image/mon_logo.png";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false)
@@ -44,7 +45,9 @@ export default function Navbar() {
               : "hidden "
           }`}
         >
-          <NavLink></NavLink>
+          <NavLink>
+            
+          </NavLink>
         </div>
       </div>
     </>
