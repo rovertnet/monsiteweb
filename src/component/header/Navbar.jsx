@@ -44,11 +44,7 @@ export default function Navbar() {
               : "hidden "
           }`}
         >
-          <h1 className="text-white">Element</h1>
-          <h1 className="text-white">Element</h1>
-          <h1 className="text-white">Element</h1>
-          <h1 className="text-white">Element</h1>
-          <h1 className="text-white">Element</h1>
+          
         </div>
       </div>
     </>
