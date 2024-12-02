@@ -4,7 +4,7 @@ export default function Service() {
   return (
     <>
       <div className=" block pt-5 pb-10 bg-black">
-        <div className="mx-6 md:mx-10">
+        <div className="md:mx-36 mx-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mx-6">
             <div className="flex space-x-5 py-3 px-5 rounded-lg border-[1px] border-slate-500 bg-black">
               <SiGooglemarketingplatform className="text-5xl font-extrabold text-slate-300 pt-1" />
