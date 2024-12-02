@@ -8,8 +8,36 @@ export default function Service() {
           <div className="flex space-x-5 py-3 px-5 rounded-lg border-[1px] border-slate-200 bg-white/10">
             <SiGooglemarketingplatform className="text-3xl font-extrabold text-slate-300" />
             <div className="flex flex-col gap-2">
-              <h3 className="font-bold text-slate-200 text-2xl uppercase">Marketing digital</h3>
-              <span className="font-medium text-base text-slate-400">La modernité dans vos boites et entréprise</span>
+              <h3 className="font-bold text-slate-200 text-2xl uppercase">
+                Marketing digital
+              </h3>
+              <span className="font-medium text-base text-slate-400">
+                La modernité dans vos boites et entréprise
+              </span>
+            </div>
+          </div>
+
+          <div className="flex space-x-5 py-3 px-5 rounded-lg border-[1px] border-slate-200 bg-white/10">
+            <SiGooglemarketingplatform className="text-3xl font-extrabold text-slate-300" />
+            <div className="flex flex-col gap-2">
+              <h3 className="font-bold text-slate-200 text-2xl uppercase">
+                Marketing digital
+              </h3>
+              <span className="font-medium text-base text-slate-400">
+                La modernité dans vos boites et entréprise
+              </span>
+            </div>
+          </div>
+
+          <div className="flex space-x-5 py-3 px-5 rounded-lg border-[1px] border-slate-200 bg-white/10">
+            <SiGooglemarketingplatform className="text-3xl font-extrabold text-slate-300" />
+            <div className="flex flex-col gap-2">
+              <h3 className="font-bold text-slate-200 text-2xl uppercase">
+                Marketing digital
+              </h3>
+              <span className="font-medium text-base text-slate-400">
+                La modernité dans vos boites et entréprise
+              </span>
             </div>
           </div>
         </div>
