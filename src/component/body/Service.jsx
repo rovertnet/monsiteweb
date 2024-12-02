@@ -6,7 +6,7 @@ export default function Service() {
       <div className=" block pt-5 pb-10 bg-black">
         <div className="flex justify-center items-center gap-10">
           <div className="flex space-x-5">
-            <img src="" className="" alt="" />
+            
           </div>
         </div>
       </div>
