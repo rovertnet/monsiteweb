@@ -4,7 +4,7 @@ export default function Service() {
   return (
     <>
       <div className=" block pt-10 pb-10 bg-black">
-        <h1 className="font "></h1>
+        <h1 className="font-bold text-2xl text-slate-200"></h1>
         <div className="md:mx-36 mx-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mx-6">
             <div className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-black">
