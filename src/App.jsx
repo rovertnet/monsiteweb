@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-black h-screen">
+      <div className="bg-black h-screen md:h-screen flex justify-center items-center">
         <Herosection />
         <About />
       </div>
