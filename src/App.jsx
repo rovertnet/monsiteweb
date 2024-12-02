@@ -1,6 +1,7 @@
 
 import About from "./component/body/About";
 import Herosection from "./component/body/Herosection";
+import Project from "./component/body/Project";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <div className="bg-black h-screen md:h-screen">
         <Herosection />
         <About />
+        <Project />
       </div>
     </>
   );
