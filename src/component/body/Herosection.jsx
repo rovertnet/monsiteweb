@@ -11,7 +11,7 @@ export default function Herosection() {
   return (
     <>
       <div className="block">
-        <div className="bg-black h-screen md:h-screen flex flex-col items-center justify-center ">
+        <div classNam="h-screen md:h-screen flex flex-col items-center justify-center ">
           <h1 className="font-extrabold text-6xl md:text-8xl uppercase  text-center text-transparent bg-clip-text bg-gradient-to-b from-orange-400 from-10% via-white via-30% to-purple-700 to-90% ...">
             Bonjour!
           </h1>
