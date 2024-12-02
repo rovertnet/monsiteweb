@@ -4,7 +4,9 @@ export default function Service() {
   return (
     <>
       <div className=" block pt-10 pb-10 bg-black">
-        <h1 className="font-bold text-2xl text-slate-200 uppercase text-center pb-10">Mes Services</h1>
+        <h1 className="font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-700 from-10% via-white via-30% to-orange-500 to-90% ... uppercase text-center pb-10">
+          Mes Services
+        </h1>
         <div className="md:mx-36 mx-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mx-6">
             <div className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-black">
