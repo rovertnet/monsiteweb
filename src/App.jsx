@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-black h-screen md:h-screen py-10">
+      <div className="bg-black h-screen md:h-screen">
         <Herosection />
         <About />
       </div>
