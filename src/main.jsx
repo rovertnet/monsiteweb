@@ -10,7 +10,7 @@ import Project from './component/body/Project.jsx'
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div className="bg-black h-screen">
+    <div className="bg-black h-screen flex justify-center items-center">
       <Navbar />
       <BrowserRouter>
         <Routes>
