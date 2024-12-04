@@ -13,6 +13,9 @@ div{font-family: "Peinture humide Rubik Statique", sans-serif;}
 
 @layer components{
   .shape{
-    background-color: linear-gradient(rgba(238,0,0,1));
+    background-color: linear-gradient(rgb(241, 94, 21) 0% 
+      rgb(123, 0, 238) 76%,
+      rgba(255,223,252) 100%
+    );
   }
 }
