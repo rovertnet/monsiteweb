@@ -8,7 +8,7 @@ export default function Skils() {
           Education de ROBERT ROVERTNET
         </h2>
 
-        <div className=""></div>
+        <div className="flex justify-center items-center gap-10"></div>
       </div>
     </>
   );
