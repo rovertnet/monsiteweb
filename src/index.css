@@ -10,3 +10,9 @@
 
 div{font-family: "Peinture humide Rubik Statique", sans-serif;}
 .menu{position: relative !important; bottom: 4rem !important;}
+
+@layer components{
+  .shape{
+    background-color: linear-gradient(rgba(238,0,0,1));
+  }
+}
