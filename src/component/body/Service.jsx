@@ -13,7 +13,7 @@ export default function Service() {
         </h2>
         <div className="md:mx-36 mx-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mx-6">
-            <div className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-black">
+            <div className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5">
               <div className="flex space-x-5 ">
                 <SiGooglemarketingplatform className="text-5xl font-extrabold text-slate-300 pt-1" />
                 <div className="flex flex-col gap-1">
@@ -33,7 +33,7 @@ export default function Service() {
               </div>
             </div>
 
-            <div className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-black">
+            <div className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5">
               <div className="flex space-x-5 ">
                 <FaCode className="text-5xl font-extrabold text-slate-300 pt-1" />
                 <div className="flex flex-col gap-1">
@@ -53,7 +53,7 @@ export default function Service() {
               </div>
             </div>
 
-            <div className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-black">
+            <div className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5">
               <div className="flex space-x-5 ">
                 <TbWorldBolt className="text-5xl font-extrabold text-slate-300 pt-1" />
                 <div className="flex flex-col gap-1">
