@@ -18,7 +18,7 @@ export default function Skils() {
               <div className="flex justify-between items-center py-5">
                 <p className="flex space-x-3">
                   <FaHtml5 className="text-5xl font-extrabold text-blue-600 pt-1" />
-                  <span className="text-emerald-100 font-semibold text-lg"></span>
+                  <span className="text-emerald-100 font-semibold text-lg uppercase">HTML</span>
                 </p>
                 <span className="font-semibold text-lg text-emerald-100">
                   99.9%
