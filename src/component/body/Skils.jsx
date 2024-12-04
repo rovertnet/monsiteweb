@@ -19,6 +19,8 @@ export default function Skils() {
               <h2 className="font-semibold text-xl text-orange-600">
                 Back-End
               </h2>
+
+              <div className="flex justify-between items-center"></div>
             </div>
           </div>
         </div>
