@@ -1,4 +1,8 @@
 import { SiGooglemarketingplatform } from "react-icons/si";
+import { FaCode } from "react-icons/fa";
+import { TbWorldBolt } from "react-icons/tb";
+
+
 
 export default function Service() {
   return (
@@ -31,10 +35,10 @@ export default function Service() {
 
             <div className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-black">
               <div className="flex space-x-5 ">
-                <SiGooglemarketingplatform className="text-5xl font-extrabold text-slate-300 pt-1" />
+                <FaCode className="text-5xl font-extrabold text-slate-300 pt-1" />
                 <div className="flex flex-col gap-1">
                   <h3 className="font-bold text-slate-200 text-base uppercase">
-                    Conception API 
+                    Conception API
                   </h3>
                   <span className="font-medium text-sm text-slate-400">
                     La modernité dans vos boites et entréprise
@@ -51,7 +55,7 @@ export default function Service() {
 
             <div className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-black">
               <div className="flex space-x-5 ">
-                <SiGooglemarketingplatform className="text-5xl font-extrabold text-slate-300 pt-1" />
+                <TbWorldBolt className="text-5xl font-extrabold text-slate-300 pt-1" />
                 <div className="flex flex-col gap-1">
                   <h3 className="font-bold text-slate-200 text-base uppercase">
                     Déveleppement Web
