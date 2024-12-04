@@ -13,7 +13,7 @@ export default function Service() {
               <div className="flex space-x-5 ">
                 <SiGooglemarketingplatform className="text-5xl font-extrabold text-slate-300 pt-1" />
                 <div className="flex flex-col gap-1">
-                  <h3 className="font-bold text-slate-200 text-lg uppercase">
+                  <h3 className="font-bold text-slate-200 text-base uppercase">
                     Marketing digital
                   </h3>
                   <span className="font-medium text-sm text-slate-400">
@@ -21,7 +21,7 @@ export default function Service() {
                   </span>
                 </div>
               </div>
-              <div className="text-slate-200 text-justify py-5">
+              <div className="text-slate-200 text-justify text-xs font-medium py-5">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
                 ullam autem fugit, assumenda ratione vero quos recusandae ea
                 quo, incidunt voluptates vitae nihil in, non tenetur quia facere
@@ -33,15 +33,15 @@ export default function Service() {
               <div className="flex space-x-5 ">
                 <SiGooglemarketingplatform className="text-5xl font-extrabold text-slate-300 pt-1" />
                 <div className="flex flex-col gap-1">
-                  <h3 className="font-bold text-slate-200 text-lg uppercase">
-                    Gestion des médias sociaux
+                  <h3 className="font-bold text-slate-200 text-base uppercase">
+                    Conception API 
                   </h3>
                   <span className="font-medium text-sm text-slate-400">
                     La modernité dans vos boites et entréprise
                   </span>
                 </div>
               </div>
-              <div className="text-slate-200 text-justify py-5">
+              <div className="text-slate-200 text-justify text-xs font-medium py-5">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
                 ullam autem fugit, assumenda ratione vero quos recusandae ea
                 quo, incidunt voluptates vitae nihil in, non tenetur quia facere
@@ -53,7 +53,7 @@ export default function Service() {
               <div className="flex space-x-5 ">
                 <SiGooglemarketingplatform className="text-5xl font-extrabold text-slate-300 pt-1" />
                 <div className="flex flex-col gap-1">
-                  <h3 className="font-bold text-slate-200 text- uppercase">
+                  <h3 className="font-bold text-slate-200 text-base uppercase">
                     Déveleppement Web
                   </h3>
                   <span className="font-medium text-sm text-slate-400">
@@ -61,7 +61,7 @@ export default function Service() {
                   </span>
                 </div>
               </div>
-              <div className="text-slate-200 text-justify py-5">
+              <div className="text-slate-200 text-justify text-xs font-medium py-5">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
                 ullam autem fugit, assumenda ratione vero quos recusandae ea
                 quo, incidunt voluptates vitae nihil in, non tenetur quia facere
