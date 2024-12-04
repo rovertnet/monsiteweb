@@ -8,14 +8,14 @@ export default function Skils() {
           Education de ROBERT ROVERTNET
         </h2>
 
-        <div className="">
+        <div className="md:mx-40 mx-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 py-10">
-            <div className="bg-white/5 px-5 py-5">
+            <div className="bg-white/5 px-5 py-5 rounded-md">
               <h2 className="font-semibold text-xl text-purple-600">
                 Front-End
               </h2>
             </div>
-            <div className="bg-white/5 px-5 py-5 ">
+            <div className="bg-white/5 px-5 py-5 rounded-md">
               <h2 className="font-semibold text-xl text-orange-600">
                 Back-End
               </h2>
