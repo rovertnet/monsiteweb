@@ -9,7 +9,8 @@ export default function Project() {
 
        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         <div className="bg-white/5 rounded-tl-md rounded-tr-md">
-          <div className="bg-slate-700 "></div>
+          <div className="bg-slate-700 py-10 px-5"></div>
+          <div className=""></div>
         </div> 
        </div>   
       </div>
