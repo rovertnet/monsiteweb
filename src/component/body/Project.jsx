@@ -25,6 +25,40 @@ export default function Project() {
                 </h2>
               </div>
             </div>
+
+            <div className="bg-white rounded-md">
+              <div className="bg-slate-700 rounded-tl-md rounded-tr-md py-10 px-5"></div>
+              <div className="flex justify-start items-center space-x-5 py-3 px-3">
+                <h2 className="bg-slate-600 px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
+                  React js
+                </h2>
+
+                <h2 className="bg-slate-600 px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
+                  React js
+                </h2>
+
+                <h2 className="bg-slate-600 px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
+                  React js
+                </h2>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-md">
+              <div className="bg-slate-700 rounded-tl-md rounded-tr-md py-10 px-5"></div>
+              <div className="flex justify-start items-center space-x-5 py-3 px-3">
+                <h2 className="bg-slate-600 px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
+                  React js
+                </h2>
+
+                <h2 className="bg-slate-600 px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
+                  React js
+                </h2>
+
+                <h2 className="bg-slate-600 px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
+                  React js
+                </h2>
+              </div>
+            </div>
           </div>
         </div>
       </div>
