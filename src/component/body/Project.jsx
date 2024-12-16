@@ -11,7 +11,7 @@ export default function Project() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             <div className="bg-white rounded-tl-md rounded-tr-md">
               <div className="bg-slate-700 rounded-md py-10 px-5"></div>
-              <div className=""></div>
+              <div className="flex justify-center items-center space-x-5"></div>
             </div>
           </div>
         </div>
