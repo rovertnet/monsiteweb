@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <img src={logo} alt={logo} className="w-5 md:w-6 md:h-6 h-5" />
           <button
-            className="bg-slate-900 px-0 py-0 rounded-full cursor-pointer"
+            className="bg-slate-900 px-0 py-0 rounded-full cursor-pointer duration-300 transition-all ease-out"
             onClick={toggleMenu}
           >
             {openMenu ? (
