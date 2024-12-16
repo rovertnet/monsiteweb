@@ -1,6 +1,7 @@
 
 import About from "./component/body/About";
 import Herosection from "./component/body/Herosection";
+import Project from "./component/body/Project";
 import Service from "./component/body/Service";
 import Skils from "./component/body/Skils";
 
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Service />
         <Skils />
+        <Project />
       </div>
     </>
   );
