@@ -12,7 +12,7 @@ export default function Service() {
           Mes Services
         </h2>
         <div className="md:mx-40 mx-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mx-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             <div className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5">
               <div className="flex space-x-5 ">
                 <SiGooglemarketingplatform className="text-5xl font-extrabold text-slate-300 pt-1" />
