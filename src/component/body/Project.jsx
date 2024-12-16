@@ -12,7 +12,9 @@ export default function Project() {
             <div className="bg-white rounded-tl-md rounded-tr-md">
               <div className="bg-slate-700 rounded-md py-10 px-5"></div>
               <div className="flex justify-center items-center space-x-5">
-                <h2 className="bg-slate-800 px-2 py-1 text-base font-medium"></h2>
+                <h2 className="bg-slate-800 px-2 py-1 text-base font-medium rounded-3xl">
+                  React js
+                </h2>
               </div>
             </div>
           </div>
