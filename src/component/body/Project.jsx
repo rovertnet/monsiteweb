@@ -9,8 +9,7 @@ export default function Project() {
           Mes Compétences
         </h2>
 
-        
-        
+          
       </div>
     </>
   );
