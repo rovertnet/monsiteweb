@@ -25,7 +25,7 @@ export default function Service() {
                   </span>
                 </div>
               </div>
-              <div className="text-slate-300 text-justify text-xs font-medium py-5">
+              <div className="text-slate-300 text-justify text-lg font-medium py-5">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
                 ullam autem fugit, assumenda ratione vero quos recusandae ea
                 quo, incidunt voluptates vitae nihil in, non tenetur quia facere
@@ -45,7 +45,7 @@ export default function Service() {
                   </span>
                 </div>
               </div>
-              <div className="text-slate-300 text-justify text-xs font-medium py-5">
+              <div className="text-slate-300 text-justify text-lg font-medium py-5">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
                 ullam autem fugit, assumenda ratione vero quos recusandae ea
                 quo, incidunt voluptates vitae nihil in, non tenetur quia facere
@@ -65,7 +65,7 @@ export default function Service() {
                   </span>
                 </div>
               </div>
-              <div className="text-slate-300 text-justify text-xs font-medium py-5">
+              <div className="text-slate-300 text-justify text-lg font-medium py-5">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
                 ullam autem fugit, assumenda ratione vero quos recusandae ea
                 quo, incidunt voluptates vitae nihil in, non tenetur quia facere
