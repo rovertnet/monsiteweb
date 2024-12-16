@@ -1,5 +1,3 @@
-import { FaCss3, FaHtml5, FaReact } from "react-icons/fa6";
-
 
 export default function Project() {
   return (
@@ -9,7 +7,9 @@ export default function Project() {
           Mes Compétences
         </h2>
 
-          
+       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+         
+       </div>   
       </div>
     </>
   );
