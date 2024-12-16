@@ -68,7 +68,7 @@ export default function Skils() {
                 </div>
               </div>
             </div>
-            <div className="bg-white/5 px-5 py-5 rounded-lg">
+            <div className="bg-white/5 px-7 py-5 rounded-lg">
               <h2 className="font-semibold text-xl text-orange-600">
                 Back-End
               </h2>
