@@ -2,9 +2,9 @@
 export default function Project() {
   return (
     <>
-      <div className="block pt-10 pb-10 bg-black">
-        <div className="mx-6 md:mx-36">
-          <h2 className="font-bold uppercase text-transparent text-center py-7 bg-clip-text bg-gradient-to-r from-purple-700 from-10% via-white via-30% to-orange-500 to-90% ... text-2xl md:text-text-3xl pt-3 pb-5">
+      <div className="block  bg-black">
+        <div className="mx-6 md:mx-36 pt-10 pb-14">
+          <h2 className="font-bold uppercase text-transparent text-center bg-clip-text bg-gradient-to-r from-purple-700 from-10% via-white via-30% to-orange-500 to-90% ... text-2xl md:text-text-3xl pt-3 pb-14">
             Mes Projets
           </h2>
 
