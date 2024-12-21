@@ -81,7 +81,13 @@ export default function Temoins() {
 
         <div className="md:mx-40 mx-6">
           <Slider {...setting}>
-
+            {
+              temoignageData.map((item) => {
+                <div key={item.id}>
+                  
+                </div>
+              })
+            }
           </Slider>
         </div>
       </div>
