@@ -34,18 +34,35 @@ const temoignageData = [
 
 export default function Temoins() {
 
-  const settings = {
-    dots:true,
-    arrow:false,
-    infinite:true,
-    speed:500,
-    slidesToScroll:1,
+  const setting = {
+    dots: true,
+    arrow: false,
+    infinite: true,
+    speed: 500,
+    slidesToScroll: 1,
     // autoplay:true,
-    autoplaySpeed:2000,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     pauseOnHover: true,
-    pauseOnFocus: true
-  }
+    pauseOnFocus: true,
+    responsive: [
+      {
+        breakpoint: 10000,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+      {
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+        },
+      },
+    ],
+  };
 
   return (
     <>
@@ -55,8 +72,8 @@ export default function Temoins() {
         </h2>
 
         <div className="md:mx-40 mx-6">
-          <Slider {...settings}>
-            
+          <Slider {...setting}>
+
           </Slider>
         </div>
       </div>
