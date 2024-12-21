@@ -33,7 +33,15 @@ const temoignageData = [
 
 export default function Temoins() {
 
-  
+  const settings = {
+    dots:true,
+    arrow:false,
+    infinite:true,
+    speed:500,
+    slidesToScroll:1,
+    // autoplay:
+  }
+
   return (
     <>
       <div className="block pt-10 bg-black">
