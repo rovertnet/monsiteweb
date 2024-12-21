@@ -8,7 +8,9 @@ export default function Temoins() {
           Temoignages
         </h2>
 
-        
+        <div className="md:mx-40 mx-6">
+          
+        </div>
       </div>
     </>
   );
