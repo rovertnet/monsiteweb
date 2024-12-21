@@ -74,8 +74,8 @@ export default function Temoins() {
 
   return (
     <>
-      <div className="block pt-10 bg-black">
-        <h2 className="font-bold uppercase text-transparent text-center py-7 bg-clip-text bg-gradient-to-r from-purple-700 from-10% via-white via-30% to-orange-500 to-90% ... text-2xl md:text-text-3xl pt-3 pb-5">
+      <div className="block pt-10 bg-black pb-10">
+        <h2 className="font-bold uppercase text-transparent text-center py-7 bg-clip-text bg-gradient-to-r from-purple-700 from-10% via-white via-30% to-orange-500 to-90% ... text-2xl md:text-text-3xl pt-3 pb-10">
           Temoignages
         </h2>
 
@@ -92,7 +92,7 @@ export default function Temoins() {
                         className="w-16 h-16 rounded-full"
                       />
                       <div>
-                        <p className="">{item.name}</p>
+                        <p className="font-semibold text-xl text-black">{item.name}</p>
                         <p className="">{item.name}</p>
                       </div>
                     </div>
