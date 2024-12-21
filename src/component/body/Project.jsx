@@ -1,6 +1,6 @@
 import proimg1 from "../../assets/image/P1.jpg"
 import proimg2 from "../../assets/image/P2.jpg"
-
+import proimg3 from "../../assets/image/pro1.jpg"
 
 export default function Project() {
   return (
@@ -21,15 +21,38 @@ export default function Project() {
                 />
               </div>
               <div className="flex justify-start items-center space-x-5 pb-5 pt-10 px-3">
-                <h2 className="bg-black px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
+                <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
                   React js
                 </h2>
 
-                <h2 className="bg-black px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
+                <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
                   React js
                 </h2>
 
-                <h2 className="bg-black px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
+                <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
+                  React js
+                </h2>
+              </div>
+            </div>
+
+            <div className="bg-white/10 rounded-md">
+              <div className="">
+                <img
+                  src={proimg3}
+                  alt={proimg3}
+                  className="w-full h-36 md:h-48 object-cover rounded-tl-md rounded-tr-md"
+                />
+              </div>
+              <div className="flex justify-start items-center space-x-2 pb-5 pt-10 px-3">
+                <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
+                  React js
+                </h2>
+
+                <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
+                  React js
+                </h2>
+
+                <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
                   React js
                 </h2>
               </div>
@@ -44,38 +67,15 @@ export default function Project() {
                 />
               </div>
               <div className="flex justify-start items-center space-x-5 pb-5 pt-10 px-3">
-                <h2 className="bg-black px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
+                <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
                   React js
                 </h2>
 
-                <h2 className="bg-black px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
+                <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
                   React js
                 </h2>
 
-                <h2 className="bg-black px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
-                  React js
-                </h2>
-              </div>
-            </div>
-
-            <div className="bg-white/10 rounded-md">
-              <div className="">
-                <img
-                  src={proimg1}
-                  alt={proimg1}
-                  className="w-full h-36 md:h-48 object-cover rounded-tl-md rounded-tr-md"
-                />
-              </div>
-              <div className="flex justify-start items-center space-x-5 pb-5 pt-10 px-3">
-                <h2 className="bg-black px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
-                  React js
-                </h2>
-
-                <h2 className="bg-black px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
-                  React js
-                </h2>
-
-                <h2 className="bg-black px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
+                <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
                   React js
                 </h2>
               </div>
