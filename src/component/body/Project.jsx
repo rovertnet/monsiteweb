@@ -39,7 +39,7 @@ export default function Project() {
                 </div>
 
                 <button>
-                  <FaExternalLinkAlt className="" />
+                  <FaExternalLinkAlt className="font-medium text-slate-300 text-sm" />
                 </button>
               </div>
             </div>
@@ -52,18 +52,20 @@ export default function Project() {
                   className="w-full h-36 md:h-48 object-cover rounded-tl-md rounded-tr-md"
                 />
               </div>
-              <div className="flex justify-start items-center space-x-2 pb-5 pt-10 px-3">
-                <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
-                  React js
-                </h2>
+              <div className="flex justify-between items-center pb-5 pt-10 px-3">
+                <div className="flex space-x-2">
+                  <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
+                    React js
+                  </h2>
 
-                <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
-                  React js
-                </h2>
+                  <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
+                    React js
+                  </h2>
 
-                <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
-                  React js
-                </h2>
+                  <h2 className="bg-black px-3 py-1 text-xs text-yellow-50 font-medium rounded-3xl">
+                    React js
+                  </h2>
+                </div>
               </div>
             </div>
 
