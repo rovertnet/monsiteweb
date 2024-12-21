@@ -27,7 +27,7 @@ const temoignageData = [
     id: 1,
     name: "Bestech consult",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vero ducimus mollitia recusandae in! Est sunt, natus eveniet ducimus distinctio ratione a quia suscipit tempora soluta accusantium fuga neque placeat?",
-    img: "../../assets/image/RP1.jpeg",
+    imgT: "../../assets/image/RP1.jpeg",
     deley: 0.5,
   },
 ];
@@ -86,7 +86,7 @@ export default function Temoins() {
                 <div key={item.id}>
                   <div>
                     <div>
-                      <img src={} alt="" />
+                      <img src={item.imgT} alt="" />
                     </div>
                   </div>
                 </div>
