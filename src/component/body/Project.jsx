@@ -2,6 +2,9 @@ import proimg1 from "../../assets/image/P1.jpg"
 import proimg2 from "../../assets/image/P2.jpg"
 import proimg3 from "../../assets/image/pro1.jpg"
 
+import { FaExternalLinkAlt } from "react-icons/fa";
+
+
 export default function Project() {
   return (
     <>
@@ -36,7 +39,7 @@ export default function Project() {
                 </div>
 
                 <button>
-                  
+                  <FaExternalLinkAlt className="" />
                 </button>
               </div>
             </div>
