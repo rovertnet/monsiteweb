@@ -32,6 +32,8 @@ const temoignageData = [
 ];
 
 export default function Temoins() {
+
+  
   return (
     <>
       <div className="block pt-10 bg-black">
@@ -40,7 +42,7 @@ export default function Temoins() {
         </h2>
 
         <div className="md:mx-40 mx-6">
-          
+          <></>
         </div>
       </div>
     </>
