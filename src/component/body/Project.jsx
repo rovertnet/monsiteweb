@@ -47,11 +47,11 @@ export default function Project() {
             </div>
 
             <div className="bg-white/10 rounded-md">
-              <div className="bg-slate-900 ">
+              <div className="">
                 <img
                   src={proimg1}
                   alt={proimg1}
-                  className="rounded-tl-md rounded-tr-md py-10 px-5 object-cover"
+                  className="w-full h-36 md:h-48 object-cover"
                 />
               </div>
               <div className="flex justify-start items-center space-x-5 pb-5 pt-10 px-3">
