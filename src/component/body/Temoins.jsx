@@ -55,10 +55,19 @@ export default function Temoins() {
         },
       },
       {
+        breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
-          infinite: true,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
         },
       },
     ],
