@@ -1,3 +1,4 @@
+import Slider from "react-slick";
 
 
 const temoignageData = [
@@ -39,7 +40,11 @@ export default function Temoins() {
     infinite:true,
     speed:500,
     slidesToScroll:1,
-    // autoplay:
+    // autoplay:true,
+    autoplaySpeed:2000,
+    cssEase: "linear",
+    pauseOnHover: true,
+    pauseOnFocus: true
   }
 
   return (
@@ -50,7 +55,9 @@ export default function Temoins() {
         </h2>
 
         <div className="md:mx-40 mx-6">
-          <></>
+          <Slider {...settings}>
+            
+          </Slider>
         </div>
       </div>
     </>
