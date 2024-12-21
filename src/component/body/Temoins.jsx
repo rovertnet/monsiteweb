@@ -86,10 +86,18 @@ export default function Temoins() {
                 <div key={item.id}>
                   <div>
                     <div>
-                      <img src={item.imgT} alt="" />
+                      <img
+                        src={item.imgT}
+                        alt=""
+                        className="w-16 h-16 rounded-full"
+                      />
+                      <div>
+                        <p className="">{item.name}</p>
+                        <p className="">{item.name}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </div>;
               })
             }
           </Slider>
