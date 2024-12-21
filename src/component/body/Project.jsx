@@ -51,7 +51,7 @@ export default function Project() {
                 <img
                   src={proimg1}
                   alt={proimg1}
-                  className="w-full h-36 md:h-48 object-cover"
+                  className="w-full h-36 md:h-48 object-cover rounded-tl-md rounded-tr-md"
                 />
               </div>
               <div className="flex justify-start items-center space-x-5 pb-5 pt-10 px-3">
