@@ -66,6 +66,10 @@ export default function Project() {
                     React js
                   </h2>
                 </div>
+
+                <button>
+                  <FaExternalLinkAlt className="font-medium text-slate-300 text-sm" />
+                </button>
               </div>
             </div>
 
