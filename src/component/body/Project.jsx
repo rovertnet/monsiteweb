@@ -1,3 +1,6 @@
+import proimg1 from "../../assets/image/P1.jpg"
+
+
 
 export default function Project() {
   return (
@@ -44,7 +47,13 @@ export default function Project() {
             </div>
 
             <div className="bg-white/10 rounded-md">
-              <div className="bg-slate-900 rounded-tl-md rounded-tr-md py-10 px-5"></div>
+              <div className="bg-slate-900 ">
+                <img
+                  src={proimg1}
+                  alt={proimg1}
+                  className="rounded-tl-md rounded-tr-md py-10 px-5 object-cover"
+                />
+              </div>
               <div className="flex justify-start items-center space-x-5 pb-5 pt-10 px-3">
                 <h2 className="bg-black px-3 py-1 text-base text-yellow-50 font-medium rounded-3xl">
                   React js
