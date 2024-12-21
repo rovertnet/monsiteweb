@@ -85,14 +85,14 @@ export default function Temoins() {
               temoignageData.map((item) => {
                 <div key={item.id}>
                   <div>
-                    <div>
+                    <div >
                       <img
                         src={item.imgT}
                         alt=""
                         className="w-16 h-16 rounded-full"
                       />
                       <div>
-                        <p className="font-semibold text-xl text-black">{item.name}</p>
+                        <p className="font-semibold text-xl text-slate-100">{item.name}</p>
                         <p className="">{item.name}</p>
                       </div>
                     </div>
