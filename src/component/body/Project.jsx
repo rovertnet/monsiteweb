@@ -1,5 +1,5 @@
 import proimg1 from "../../assets/image/P1.jpg"
-
+import proimg2 from "../../assets/image/P2.jpg"
 
 
 export default function Project() {
@@ -15,8 +15,8 @@ export default function Project() {
             <div className="bg-white/10 rounded-md">
               <div className="">
                 <img
-                  src={proimg1}
-                  alt={proimg1}
+                  src={proimg2}
+                  alt={proimg2}
                   className="w-full h-36 md:h-48 object-cover rounded-tl-md rounded-tr-md"
                 />
               </div>
