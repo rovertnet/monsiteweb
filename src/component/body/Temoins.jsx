@@ -86,7 +86,7 @@ export default function Temoins() {
                 return(
 
                   <div key={item.id}>
-                  <div className=" flex flex-col gap-4 shadow-lg py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5">
+                  <div className=" flex flex-col gap-4 shadow-lg py-5 px-5 mx-4 rounded-lg border-[1px] border-slate-500 bg-white/5">
                     <div className=" flex justify-between items-center gap-5">
                       <img
                         src={item.imgT}
