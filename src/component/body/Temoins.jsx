@@ -85,7 +85,7 @@ export default function Temoins() {
               temoignageData.map((item) => {
                 <div key={item.id}>
                   <div>
-                    <div >
+                    <div className="flex justify-between" >
                       <img
                         src={item.imgT}
                         alt={item.imgT}
