@@ -88,7 +88,7 @@ export default function Temoins() {
                     <div >
                       <img
                         src={item.imgT}
-                        alt=""
+                        alt={item.imgT}
                         className="w-16 h-16 rounded-full"
                       />
                       <div>
