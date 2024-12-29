@@ -19,7 +19,11 @@ export default function Progresse() {
 
   return (
     <>
-      
+      <ul ref={scope}>
+        <li />
+        <li />
+        <li />
+      </ul>
     </>
   );
 }
