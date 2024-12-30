@@ -11,7 +11,7 @@ export default function Counter() {
 
   return (
     <>
-      <>{count}</>
+      <motion.pre>{count}</motion.pre>
     </>
   );
 }
