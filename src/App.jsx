@@ -12,12 +12,13 @@ function App() {
   return (
     <>
       <div className="bg-black h-screen md:h-screen">
-        <Progresse />
         <Herosection />
         <About />
         <Service />
         <Skils />
         <Project />
+
+        <Progresse />
       </div>
     </>
   );
