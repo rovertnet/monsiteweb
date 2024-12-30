@@ -10,7 +10,11 @@ import {gsap} from "@gsap/react"
 
 export default function Herosection() {
 
-  gsap.to(".box", {})
+  gsap.to(".box", {
+    duration: 2,
+    x: 200,
+    rotation: 360,
+  });
 
   return (
     <>
