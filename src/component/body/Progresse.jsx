@@ -6,7 +6,7 @@ export default function Progresse() {
 
   return (
     <>
-      <motion.div style={{ scaleX: scrollYProgress }} />
+      <motion.div style={{ scaleX: scrollYProgress }} className="bg-purple-800" />
     </>
   );
 }
