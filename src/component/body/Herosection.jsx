@@ -5,16 +5,11 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
-import gsap from "@gsap/react"
 
 
 export default function Herosection() {
 
-  gsap.to(".box", {
-    duration: 2,
-    x: 200,
-    rotation: 360,
-  });
+
 
   return (
     <>
