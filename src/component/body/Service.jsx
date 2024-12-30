@@ -42,7 +42,7 @@ export default function Service() {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               onHoverStart={() => console.log("hover started!")}
-              className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5"
+              className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5 cursor-pointer"
             >
               <div className="flex space-x-5 ">
                 <FaCode className="text-5xl font-extrabold text-slate-300 pt-1" />
@@ -67,7 +67,7 @@ export default function Service() {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               onHoverStart={() => console.log("hover started!")}
-              className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5"
+              className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5 cursor-pointer""
             >
               <div className="flex space-x-5 ">
                 <TbWorldBolt className="text-5xl font-extrabold text-slate-300 pt-1" />
