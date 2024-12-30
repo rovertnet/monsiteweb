@@ -1,7 +1,7 @@
 import { SiGooglemarketingplatform } from "react-icons/si";
 import { FaCode } from "react-icons/fa";
 import { TbWorldBolt } from "react-icons/tb";
-
+import {motion} from "framer-motion"
 
 
 export default function Service() {
@@ -13,7 +13,12 @@ export default function Service() {
         </h2>
         <div className="md:mx-40 mx-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            <div className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5">
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+              className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5"
+            >
               <div className="flex space-x-5 ">
                 <SiGooglemarketingplatform className="text-5xl font-extrabold text-slate-300 pt-1" />
                 <div className="flex flex-col gap-1">
@@ -31,7 +36,7 @@ export default function Service() {
                 quo, incidunt voluptates vitae nihil in, non tenetur quia facere
                 voluptate laboriosam.
               </div>
-            </div>
+            </motion.div>
 
             <div className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5">
               <div className="flex space-x-5 ">
