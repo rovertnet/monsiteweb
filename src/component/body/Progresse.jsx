@@ -1,18 +1,12 @@
-import motion, { animate, useMotionValue } from "framer-motion"
-import { useEffect } from "react";
 
-export default function Counter() {
 
-  const count = useMotionValue(0);
+export default function Progresse() {
 
-  useEffect(() => {
-    const controls = animate(count, 100, { duration: 5 });
-    return () => controls.stop();
-  }, []);
+  
 
   return (
     <>
-      <motion.pre>{count}</motion.pre>
+
     </>
-  );
+  )
 }
