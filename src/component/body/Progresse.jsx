@@ -1,4 +1,5 @@
-
+import motion, { animate, useMotionValue } from "framer-motion"
+import { useEffect } from "react";
 
 export default function Counter() {
 
