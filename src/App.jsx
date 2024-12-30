@@ -17,8 +17,6 @@ function App() {
         <Service />
         <Skils />
         <Project />
-
-        <Progresse />
       </div>
     </>
   );
