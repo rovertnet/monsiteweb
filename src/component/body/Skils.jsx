@@ -6,6 +6,7 @@ import { SiExpress } from "react-icons/si";
 import { FaLaravel } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { SiMongodb } from "react-icons/si";
+import { SiNestjs } from "react-icons/si";
 
 
 
