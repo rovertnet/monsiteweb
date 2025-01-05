@@ -76,6 +76,8 @@ export default function Skils() {
                 </div>
               </div>
             </div>
+
+            {/* la parie backend */}
             <div className="bg-white/5 px-7 py-5 rounded-lg">
               <h2 className="font-semibold text-xl text-center text-orange-600">
                 Back-End
