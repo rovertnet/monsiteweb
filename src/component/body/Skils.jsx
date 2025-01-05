@@ -7,6 +7,7 @@ import { FaLaravel } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { SiMongodb } from "react-icons/si";
 import { SiNestjs } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 
 
 
@@ -138,6 +139,18 @@ export default function Skils() {
                   </p>
                   <span className="font-semibold text-lg text-emerald-100">
                     59.9%
+                  </span>
+                </div>
+
+                <div className="flex justify-between items-center py-5">
+                  <p className="flex space-x-3">
+                    <FaGithub className="text-5xl font-extrabold text-slate-200 pt-1" />
+                    <span className="text-emerald-100 font-semibold text-lg capitalize pt-3">
+                      GitHub
+                    </span>
+                  </p>
+                  <span className="font-semibold text-lg text-emerald-100">
+                    89.9%
                   </span>
                 </div>
               </div>
