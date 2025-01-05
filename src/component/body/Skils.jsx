@@ -92,7 +92,7 @@ export default function Skils() {
                   <p className="flex space-x-3">
                     <FaHtml5 className="text-5xl font-extrabold text-blue-600 pt-1" />
                     <span className="text-emerald-100 font-semibold text-lg uppercase pt-3">
-                      HTML
+                      Node js (Express)
                     </span>
                   </p>
                   <span className="font-semibold text-lg text-emerald-100">
