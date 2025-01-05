@@ -65,6 +65,18 @@ export default function Skils() {
 
                 <div className="flex justify-between items-center py-5">
                   <p className="flex space-x-3">
+                    <FaReact className="text-5xl font-extrabold text-teal-300 pt-1" />
+                    <span className="text-emerald-100 font-semibold text-lg uppercase pt-3">
+                      Next js
+                    </span>
+                  </p>
+                  <span className="font-semibold text-lg text-emerald-100">
+                    50.1%
+                  </span>
+                </div>
+
+                <div className="flex justify-between items-center py-5">
+                  <p className="flex space-x-3">
                     <FaWordpress className="text-5xl font-extrabold text-blue-300 pt-1" />
                     <span className="text-emerald-100 font-semibold text-lg uppercase pt-3">
                       WordPress
