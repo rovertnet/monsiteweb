@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa6";
 import { FaWordpress } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
+import { FaLaravel } from "react-icons/fa";
 
 
 
@@ -80,7 +81,7 @@ export default function Skils() {
               <div className="py-7">
                 <div className="flex justify-between items-center py-5">
                   <p className="flex space-x-3">
-                    <FaPhp className="text-5xl font-extrabold text-blue-600 pt-1" />
+                    <FaLaravel className="text-5xl font-extrabold text-orange-600 pt-1" />
                     <span className="text-emerald-100 font-semibold text-lg uppercase pt-3">
                       PHP (Laravel)
                     </span>
@@ -92,13 +93,13 @@ export default function Skils() {
 
                 <div className="flex justify-between items-center py-5">
                   <p className="flex space-x-3">
-                    <SiExpress className="text-5xl font-extrabold text-blue-600 pt-1" />
+                    <SiExpress className="text-5xl font-extrabold text-blue-200 pt-1" />
                     <span className="text-emerald-100 font-semibold text-lg uppercase pt-3">
                       Node js (Express)
                     </span>
                   </p>
                   <span className="font-semibold text-lg text-emerald-100">
-                    99.9%
+                    69.9%
                   </span>
                 </div>
 
@@ -106,11 +107,11 @@ export default function Skils() {
                   <p className="flex space-x-3">
                     <FaHtml5 className="text-5xl font-extrabold text-blue-600 pt-1" />
                     <span className="text-emerald-100 font-semibold text-lg uppercase pt-3">
-                      HTML
+                      MySQL
                     </span>
                   </p>
                   <span className="font-semibold text-lg text-emerald-100">
-                    99.9%
+                    86.9%
                   </span>
                 </div>
 
