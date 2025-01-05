@@ -1,5 +1,6 @@
 
 import About from "./component/body/About";
+import Clients from "./component/body/Clients";
 import Contact from "./component/body/Contact";
 import Herosection from "./component/body/Herosection";
 import Progresse from "./component/body/Progresse";
@@ -21,6 +22,7 @@ function App() {
         <Skils />
         <Project />
         <Contact />
+        <Clients />
       </div>
     </>
   );
