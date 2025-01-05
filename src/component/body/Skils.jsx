@@ -2,9 +2,9 @@ import { FaHtml5 } from "react-icons/fa6";
 import { FaCss3 } from "react-icons/fa";
 import { FaReact } from "react-icons/fa6";
 import { FaWordpress } from "react-icons/fa";
-import { FaPhp } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { FaLaravel } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
 
 
 
@@ -105,8 +105,8 @@ export default function Skils() {
 
                 <div className="flex justify-between items-center py-5">
                   <p className="flex space-x-3">
-                    <FaHtml5 className="text-5xl font-extrabold text-blue-600 pt-1" />
-                    <span className="text-emerald-100 font-semibold text-lg uppercase pt-3">
+                    <GrMysql className="text-5xl font-extrabold text-blue-400 pt-1" />
+                    <span className="text-emerald-100 font-semibold text-lg capitalize pt-3">
                       MySQL
                     </span>
                   </p>
