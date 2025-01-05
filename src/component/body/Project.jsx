@@ -15,7 +15,7 @@ export default function Project() {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            <div className="bg-white/10 rounded-md">
+            <div className="bg-white/5 rounded-md">
               <div className="">
                 <img
                   src={proimg2}
@@ -44,7 +44,7 @@ export default function Project() {
               </div>
             </div>
 
-            <div className="bg-white/10 rounded-md">
+            <div className="bg-white/5 rounded-md">
               <div className="">
                 <img
                   src={proimg3}
@@ -73,7 +73,7 @@ export default function Project() {
               </div>
             </div>
 
-            <div className="bg-white/10 rounded-md">
+            <div className="bg-white/5 rounded-md">
               <div className="">
                 <img
                   src={proimg1}
