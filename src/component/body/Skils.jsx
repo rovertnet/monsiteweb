@@ -80,7 +80,7 @@ export default function Skils() {
                   <p className="flex space-x-3">
                     <FaPhp className="text-5xl font-extrabold text-blue-600 pt-1" />
                     <span className="text-emerald-100 font-semibold text-lg uppercase pt-3">
-                      PHP
+                      PHP (Laravel)
                     </span>
                   </p>
                   <span className="font-semibold text-lg text-emerald-100">
