@@ -9,7 +9,7 @@ import { SiMongodb } from "react-icons/si";
 import { SiNestjs } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
-
+import { TbBrandFramerMotion } from "react-icons/tb";
 
 
 export default function Skils() {
@@ -69,6 +69,18 @@ export default function Skils() {
                     <SiNextdotjs className="text-5xl font-extrabold text-slate-300 pt-1" />
                     <span className="text-emerald-100 font-semibold text-lg uppercase pt-3">
                       Next js
+                    </span>
+                  </p>
+                  <span className="font-semibold text-lg text-emerald-100">
+                    50.1%
+                  </span>
+                </div>
+
+                <div className="flex justify-between items-center py-5">
+                  <p className="flex space-x-3">
+                    <TbBrandFramerMotion className="text-5xl font-extrabold text-purple-600 pt-1" />
+                    <span className="text-emerald-100 font-semibold text-lg capitalize pt-3">
+                      Framer Motion
                     </span>
                   </p>
                   <span className="font-semibold text-lg text-emerald-100">
