@@ -8,6 +8,7 @@ import { GrMysql } from "react-icons/gr";
 import { SiMongodb } from "react-icons/si";
 import { SiNestjs } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 
 
 
@@ -65,7 +66,7 @@ export default function Skils() {
 
                 <div className="flex justify-between items-center py-5">
                   <p className="flex space-x-3">
-                    <FaReact className="text-5xl font-extrabold text-teal-300 pt-1" />
+                    <SiNextdotjs className="text-5xl font-extrabold text-slate-300 pt-1" />
                     <span className="text-emerald-100 font-semibold text-lg uppercase pt-3">
                       Next js
                     </span>
