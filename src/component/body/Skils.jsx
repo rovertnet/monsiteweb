@@ -84,7 +84,7 @@ export default function Skils() {
                     </span>
                   </p>
                   <span className="font-semibold text-lg text-emerald-100">
-                    99.9%
+                    78.9%
                   </span>
                 </div>
 
