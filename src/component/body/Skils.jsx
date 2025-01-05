@@ -107,7 +107,7 @@ export default function Skils() {
                 <div className="flex justify-between items-center py-5">
                   <p className="flex space-x-3">
                     <SiExpress className="text-5xl font-extrabold text-blue-200 pt-1" />
-                    <span className="text-emerald-100 font-semibold text-lg uppercase pt-3">
+                    <span className="text-emerald-100 font-semibold text-lg capitalize pt-3">
                       Nest js
                     </span>
                   </p>
