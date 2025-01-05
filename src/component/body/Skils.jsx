@@ -118,13 +118,13 @@ export default function Skils() {
 
                 <div className="flex justify-between items-center py-5">
                   <p className="flex space-x-3">
-                    <SiMongodb className="text-5xl font-extrabold text-blue-600 pt-1" />
+                    <SiMongodb className="text-5xl font-extrabold text-green-700 pt-1" />
                     <span className="text-emerald-100 font-semibold text-lg capitalize pt-3">
                       MongoDB
                     </span>
                   </p>
                   <span className="font-semibold text-lg text-emerald-100">
-                    99.9%
+                    59.9%
                   </span>
                 </div>
               </div>
