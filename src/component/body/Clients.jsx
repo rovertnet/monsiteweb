@@ -11,8 +11,8 @@ export default function Clients() {
         <div className=" md:mx-40 mx-6">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-3 gap-10">
             <div className="bg-white/5 px-7 py-7">
-              <FaQuoteLeft className="text-purple-500 text-2xl text-center font-bold" />
-              <p className="text-justify text-slate-100 font-medium">
+              <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
+              <p className="text-justify text-slate-100 font-medium ">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
                 deleniti veritatis, cum doloribus saepe ipsam sapiente ipsum a
                 fugit eum earum quasi expedita quidem, modi, ratione quisquam.
