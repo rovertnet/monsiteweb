@@ -13,17 +13,63 @@ export default function Clients() {
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-3 gap-10">
             <div className="bg-white/5 px-7 py-7">
               <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
-              <p className="text-justify text-slate-100 font-medium pb-5">
+              <p className="text-justify text-slate-100 font-medium pb-10">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
                 deleniti veritatis, cum doloribus saepe ipsam sapiente ipsum a
                 fugit eum earum quasi expedita quidem, modi, ratione quisquam.
                 Ex, sint est.
               </p>
-              <div className="flex justify-start items-start">
-                <img src={rp} alt={rp} className="w-16 h-16 rounded-full" />
+              <div className="flex justify-start items-start gap-3">
+                <img src={rp} alt={rp} className="w-14 h-14 rounded-full" />
                 <div className="flex flex-col py-2">
-                  <h3 className="text-slate-100 font-bold text-xl">Robert Matundu</h3>
-                  <span className="text-slate-300 text-base font-medium">CEO chez ROVERTNET</span>
+                  <h3 className="text-slate-100 font-bold text-lg">
+                    Robert Matundu
+                  </h3>
+                  <span className="text-slate-300 text-xs font-medium">
+                    CEO chez ROVERTNET
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white/5 px-7 py-7">
+              <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
+              <p className="text-justify text-slate-100 font-medium pb-10">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                deleniti veritatis, cum doloribus saepe ipsam sapiente ipsum a
+                fugit eum earum quasi expedita quidem, modi, ratione quisquam.
+                Ex, sint est.
+              </p>
+              <div className="flex justify-start items-start gap-3">
+                <img src={rp} alt={rp} className="w-14 h-14 rounded-full" />
+                <div className="flex flex-col py-2">
+                  <h3 className="text-slate-100 font-bold text-lg">
+                    Robert Matundu
+                  </h3>
+                  <span className="text-slate-300 text-xs font-medium">
+                    CEO chez ROVERTNET
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white/5 px-7 py-7">
+              <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
+              <p className="text-justify text-slate-100 font-medium pb-10">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                deleniti veritatis, cum doloribus saepe ipsam sapiente ipsum a
+                fugit eum earum quasi expedita quidem, modi, ratione quisquam.
+                Ex, sint est.
+              </p>
+              <div className="flex justify-start items-start gap-3">
+                <img src={rp} alt={rp} className="w-14 h-14 rounded-full" />
+                <div className="flex flex-col py-2">
+                  <h3 className="text-slate-100 font-bold text-lg">
+                    Robert Matundu
+                  </h3>
+                  <span className="text-slate-300 text-xs font-medium">
+                    CEO chez ROVERTNET
+                  </span>
                 </div>
               </div>
             </div>
