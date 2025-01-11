@@ -21,8 +21,8 @@ function App() {
         <Service />
         <Skils />
         <Project />
-        <Contact />
         <Clients />
+        <Contact />
       </div>
     </>
   );
