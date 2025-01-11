@@ -7,12 +7,12 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import Aos from "aos";
 
-
-
+import "aos/dist/aos/css";
+                                  
 
 export default function Herosection() {
 
-
+ 
 
   return (
     <>
