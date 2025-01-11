@@ -7,6 +7,7 @@ import Progresse from "./component/body/Progresse";
 import Project from "./component/body/Project";
 import Service from "./component/body/Service";
 import Skils from "./component/body/Skils";
+import Temoins from "./component/body/Temoins";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Service />
         <Skils />
         <Project />
+        <Temoins />
         <Clients />
         <Contact />
       </div>
