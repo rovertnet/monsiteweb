@@ -1,5 +1,6 @@
 import { FaQuoteLeft } from "react-icons/fa";
 import rp from "../../assets/image/RP1.jpeg";
+import {motion} from "framer-motion"
 
 export default function Clients() {
   return (
@@ -11,7 +12,12 @@ export default function Clients() {
 
         <div className=" md:mx-40 mx-6">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-3 gap-10">
-            <div className="bg-white/5 px-7 py-7">
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+              className="bg-white/5 px-7 py-7 hover:border-[1px] hover:border-slate-400"
+            >
               <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
               <p className="text-justify text-slate-100 font-medium pb-10">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
@@ -30,9 +36,14 @@ export default function Clients() {
                   </span>
                 </div>
               </div>
-            </div>
+            </motion.div>
 
-            <div className="bg-white/5 px-7 py-7">
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+              className="bg-white/5 px-7 py-7"
+            >
               <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
               <p className="text-justify text-slate-100 font-medium pb-10">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
@@ -51,9 +62,14 @@ export default function Clients() {
                   </span>
                 </div>
               </div>
-            </div>
+            </motion.div>
 
-            <div className="bg-white/5 px-7 py-7">
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+              className="bg-white/5 px-7 py-7"
+            >
               <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
               <p className="text-justify text-slate-100 font-medium pb-10">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
@@ -72,7 +88,7 @@ export default function Clients() {
                   </span>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
