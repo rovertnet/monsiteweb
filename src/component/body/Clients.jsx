@@ -28,7 +28,7 @@ export default function Clients() {
               <div className="flex justify-start items-start gap-3">
                 <img src={rp} alt={rp} className="w-14 h-14 rounded-full" />
                 <div className="flex flex-col py-2">
-                  <h3 className="text-slate-100 font-bold text-lg">
+                  <h3 className="text-purple-600 font-bold text-lg">
                     Robert Matundu
                   </h3>
                   <span className="text-slate-300 text-xs font-medium">
@@ -54,7 +54,7 @@ export default function Clients() {
               <div className="flex justify-start items-start gap-3">
                 <img src={rp} alt={rp} className="w-14 h-14 rounded-full" />
                 <div className="flex flex-col py-2">
-                  <h3 className="text-slate-100 font-bold text-lg">
+                  <h3 className="text-purple-600 font-bold text-lg">
                     Robert Matundu
                   </h3>
                   <span className="text-slate-300 text-xs font-medium">
@@ -80,7 +80,7 @@ export default function Clients() {
               <div className="flex justify-start items-start gap-3">
                 <img src={rp} alt={rp} className="w-14 h-14 rounded-full" />
                 <div className="flex flex-col py-2">
-                  <h3 className="text-slate-100 font-bold text-lg">
+                  <h3 className="text-purple-600 font-bold text-lg">
                     Robert Matundu
                   </h3>
                   <span className="text-slate-300 text-xs font-medium">
