@@ -1,5 +1,5 @@
 import { FaQuoteLeft } from "react-icons/fa";
-import img1 from "../../assets/image/R2.JPG"
+import R2 from "../../assets/image/R2.JPG"
 
 export default function Clients() {
   return (
@@ -20,7 +20,7 @@ export default function Clients() {
                 Ex, sint est.
               </p>
               <div className="flex justify-start items-start">
-                <img src={img1} alt={img1} className="w-14 h-14 rounded-full" />
+                <img src={R2} alt={R2} className="w-14 h-14 rounded-full" />
               </div>
             </div>
           </div>
