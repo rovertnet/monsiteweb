@@ -20,7 +20,7 @@ export default function Clients() {
                 Ex, sint est.
               </p>
               <div className="flex justify-start items-start">
-                <img src={img1} alt={img1} className="w-" />
+                <img src={img1} alt={img1} className="w-14 h-14 rounded-full" />
               </div>
             </div>
           </div>
