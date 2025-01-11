@@ -13,7 +13,9 @@ export default function Clients() {
             <div className="bg-white/5 px-7 py-7">
               <FaQuoteLeft className="text-purple-500 text-2xl text-center font-bold" />
               <p className="text-justify text-slate-100 font-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deleniti veritatis, cum doloribus saepe ipsam sapiente ipsum a fugit eum earum quasi expedita quidem, modi, ratione quisquam. Ex, sint est.</p>
-              <div className="flex "></div>
+              <div className="flex justify-start items-start">
+                <img src="" alt="" className="" />
+              </div>
             </div>
           </div>
         </div>
