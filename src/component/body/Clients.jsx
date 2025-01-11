@@ -1,4 +1,5 @@
 import { FaQuoteLeft } from "react-icons/fa";
+import {pclient} from "../../assets/image/R1.JPG"
 
 export default function Clients() {
   return (
@@ -20,8 +21,8 @@ export default function Clients() {
               </p>
               <div className="flex justify-start items-start">
                 <img
-                  src=
-                  alt="image1"
+                  src={pclient}
+                  alt={pclient}
                   className="w-14 h-14 rounded-full"
                 />
               </div>
