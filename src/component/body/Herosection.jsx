@@ -5,6 +5,9 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import Aos from "aos";
+
+
 
 
 export default function Herosection() {
