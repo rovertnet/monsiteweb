@@ -20,7 +20,7 @@ export default function Clients() {
               </p>
               <div className="flex justify-start items-start">
                 <img
-                  src="../../assets/image/R2.JPG"
+                  src=
                   alt="image1"
                   className="w-14 h-14 rounded-full"
                 />
