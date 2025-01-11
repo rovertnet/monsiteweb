@@ -9,7 +9,7 @@ export default function Clients() {
             Clients
           </h2>
 
-          <div className="bg-white/5 px-7 py-5 md:mx-40 mx-6"></div>
+          <div className="bg-white/5  md:mx-40 mx-6"></div>
         </div>
       </div>
     </>
