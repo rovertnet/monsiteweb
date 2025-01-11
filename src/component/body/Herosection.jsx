@@ -37,7 +37,7 @@ export default function Herosection() {
             C'est Robert, Développeur Web!
           </span>
           <div
-            data-aos="zoom-in"
+            data-aos="flip-right"
             className=" bg-white/10 rounded-full p-5 py-5 w-52 h-52 flex items-center justify-center"
           >
             <img
