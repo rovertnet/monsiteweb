@@ -33,11 +33,15 @@ export default function Herosection() {
           >
             Bonjour!
           </h1>
-          <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 from-10% via-white via-30% to-orange-500 to-90% ... text-xl md:text-text-3xl pt-3 pb-5 text-center">
+          <span
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 from-10% via-white via-30% to-orange-500 to-90% ... text-xl md:text-text-3xl pt-3 pb-5 text-center"
+          >
             C'est Robert, Développeur Web!
           </span>
           <div
-            data-aos="flip-right"
+            data-aos="zoom-in"
             className=" bg-white/10 rounded-full p-5 py-5 w-52 h-52 flex items-center justify-center"
           >
             <img
