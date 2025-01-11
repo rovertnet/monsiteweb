@@ -1,5 +1,5 @@
 import { FaQuoteLeft } from "react-icons/fa";
-import pclient from "../../assets/image/R1.JPG";
+import rp from "../../assets/image/RP1.jpeg";
 
 export default function Clients() {
   return (
@@ -20,11 +20,11 @@ export default function Clients() {
                 Ex, sint est.
               </p>
               <div className="flex justify-start items-start">
-                <img
-                  src={pclient}
-                  alt={pclient}
-                  className="w-14 h-14 rounded-full"
-                />
+                <img src={rp} alt={rp} className="w-16 h-16 rounded-full" />
+                <div className="flex flex-col py-2">
+                  <h3 className="text-slate-100 font-bold text-xl">Robert Matundu</h3>
+                  <span className="text-slate-300 text-base font-medium">CEO chez ROVERTNET</span>
+                </div>
               </div>
             </div>
           </div>
