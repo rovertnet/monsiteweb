@@ -1,5 +1,5 @@
 import { FaQuoteLeft } from "react-icons/fa";
-import {pclient} from "../../assets/image/R1.JPG"
+import pclient from "../../assets/image/R1.JPG";
 
 export default function Clients() {
   return (
