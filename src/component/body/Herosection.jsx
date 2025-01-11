@@ -7,6 +7,8 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import AOS from "aos";
 
+import "aos/dist/aos.css";
+
 
 import { useEffect } from "react";
 
