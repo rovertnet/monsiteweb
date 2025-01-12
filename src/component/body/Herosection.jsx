@@ -63,35 +63,35 @@ export default function Herosection() {
             </div>
             <div
               data-aos="fade-right"
-              data-aos-delay="150"
+              data-aos-delay="200"
               className="py-4 md:py-4 lg:py-4 px-4 md:px-4 lg:px-4 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer"
             >
               <BsInstagram className="text-white text-2xl md:text-2xl font-bold" />
             </div>
             <div
               data-aos="fade-right"
-              data-aos-delay="200"
+              data-aos-delay="300"
               className="py-4 md:py-4 lg:py-4 px-4 md:px-4 lg:px-4 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer"
             >
               <FaSquareFacebook className="text-white text-2xl md:text-2xl font-bold" />
             </div>
             <div
               data-aos="fade-right"
-              data-aos-delay="250"
+              data-aos-delay="400"
               className="py-4 md:py-4 lg:py-4 px-4 md:px-4 lg:px-4 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer"
             >
               <FaTiktok className="text-white text-2xl md:text-2xl font-bold" />
             </div>
             <div
               data-aos="fade-right"
-              data-aos-delay="300"
+              data-aos-delay="500"
               className="py-4 md:py-3 lg:py-4 px-4 md:px-4 lg:px-4 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer"
             >
               <FaSquareXTwitter className="text-white text-2xl md:text-2xl font-bold" />
             </div>
             <div
               data-aos="fade-right"
-              data-aos-delay="350"
+              data-aos-delay="600"
               className="py-4 md:py-4 lg:py-4 px-4 md:px-4 lg:px-4 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer"
             >
               <FaGithub className="text-white text-2xl md:text-2xl font-bold" />
