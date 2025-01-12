@@ -75,7 +75,7 @@ export default function Contact() {
                     placeholder="Votre message"
                   ></textarea>
                 </div>
-                
+                <button className="" type="submit"></button>
               </form>
             </div>
           </div>
