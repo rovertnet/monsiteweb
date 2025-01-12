@@ -32,7 +32,10 @@ export default function About() {
                 A propos de ROBERT ROVERTNET
               </h2>
 
-              <p className="font-medium text-lg text-slate-300 py-3 text-justify md:max-w-xl">
+              <p
+                data-aos="zoom-in-up"
+                className="font-medium text-lg text-slate-300 py-3 text-justify md:max-w-xl"
+              >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
                 eum rerum minus earum animi voluptatum deleniti laudantium ad
                 officia alias? Magnam temporibus praesentium odio, laudantium
