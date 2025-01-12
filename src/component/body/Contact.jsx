@@ -41,7 +41,7 @@ export default function Contact() {
                 </span>
               </div>
               <div className="flex space-x-2">
-                <BsWhatsapp className="text-xl font-bold text-green-500" />
+                <FaLinkedin className="text-xl font-bold text-blue-900" />
                 <span className="text-xl font-bold text-slate-100">
                   Robert Matundu
                 </span>
