@@ -37,7 +37,9 @@ export default function Clients() {
               whileTap={{ scale: 0.95 }}
               onHoverStart={() => console.log("hover started!")}
               className="bg-white/5 px-7 py-7 hover:border-[1px] hover:border-slate-400 rounded-md cursor-pointer"
-
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="200"
             >
               <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
               <p className="text-justify text-slate-100 font-medium pb-10">
@@ -64,6 +66,9 @@ export default function Clients() {
               whileTap={{ scale: 0.95 }}
               onHoverStart={() => console.log("hover started!")}
               className="bg-white/5 px-7 py-7 hover:border-[1px] hover:border-slate-400 rounded-md cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="400"
             >
               <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
               <p className="text-justify text-slate-100 font-medium pb-10">
@@ -90,6 +95,9 @@ export default function Clients() {
               whileTap={{ scale: 0.95 }}
               onHoverStart={() => console.log("hover started!")}
               className="bg-white/5 px-7 py-7 hover:border-[1px] hover:border-slate-400 rounded-md cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="600"
             >
               <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
               <p className="text-justify text-slate-100 font-medium pb-10">
