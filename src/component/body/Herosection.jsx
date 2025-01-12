@@ -28,7 +28,9 @@ export default function Herosection() {
       <div className="block">
         <div className=" h-screen md:h-screen lg:h-screen flex flex-col items-center justify-center ">
           <h1
-            data-aos="zoom-in"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
             className="font-extrabold text-6xl md:text-8xl uppercase  text-center text-transparent bg-clip-text bg-gradient-to-b from-orange-400 from-10% via-white via-30% to-purple-700 to-90% ..."
           >
             Bonjour!
@@ -41,7 +43,8 @@ export default function Herosection() {
             C'est Robert, Développeur Web!
           </span>
           <div
-            data-aos="zoom-in"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-center"
             className=" bg-white/10 rounded-full p-5 py-5 w-52 h-52 flex items-center justify-center"
           >
             <img
