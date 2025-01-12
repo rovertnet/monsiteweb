@@ -38,8 +38,8 @@ export default function Clients() {
               onHoverStart={() => console.log("hover started!")}
               className="bg-white/5 px-7 py-7 hover:border-[1px] hover:border-slate-400 rounded-md cursor-pointer"
               data-aos="fade-up"
-              data-aos-duration="1500"
-              data-aos-delay="200"
+              data-aos-duration="3000"
+              data-aos-delay="300"
             >
               <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
               <p className="text-justify text-slate-100 font-medium pb-10">
@@ -67,37 +67,37 @@ export default function Clients() {
               onHoverStart={() => console.log("hover started!")}
               className="bg-white/5 px-7 py-7 hover:border-[1px] hover:border-slate-400 rounded-md cursor-pointer"
               data-aos="fade-up"
-              data-aos-duration="1500"
-              data-aos-delay="400"
-            >
-              <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
-              <p className="text-justify text-slate-100 font-medium pb-10">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-                deleniti veritatis, cum doloribus saepe ipsam sapiente ipsum a
-                fugit eum earum quasi expedita quidem, modi, ratione quisquam.
-                Ex, sint est.
-              </p>
-              <div className="flex justify-start items-start gap-3">
-                <img src={rp} alt={rp} className="w-14 h-14 rounded-full" />
-                <div className="flex flex-col py-2">
-                  <h3 className="text-purple-600 font-bold text-lg">
-                    Robert Matundu
-                  </h3>
-                  <span className="text-slate-300 text-xs font-medium">
-                    CEO chez ROVERTNET
-                  </span>
-                </div>
-              </div>
-            </motion.div>
-
-            <motion.div
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              onHoverStart={() => console.log("hover started!")}
-              className="bg-white/5 px-7 py-7 hover:border-[1px] hover:border-slate-400 rounded-md cursor-pointer"
-              data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos-duration="3500"
               data-aos-delay="600"
+            >
+              <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
+              <p className="text-justify text-slate-100 font-medium pb-10">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                deleniti veritatis, cum doloribus saepe ipsam sapiente ipsum a
+                fugit eum earum quasi expedita quidem, modi, ratione quisquam.
+                Ex, sint est.
+              </p>
+              <div className="flex justify-start items-start gap-3">
+                <img src={rp} alt={rp} className="w-14 h-14 rounded-full" />
+                <div className="flex flex-col py-2">
+                  <h3 className="text-purple-600 font-bold text-lg">
+                    Robert Matundu
+                  </h3>
+                  <span className="text-slate-300 text-xs font-medium">
+                    CEO chez ROVERTNET
+                  </span>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+              className="bg-white/5 px-7 py-7 hover:border-[1px] hover:border-slate-400 rounded-md cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="4000"
+              data-aos-delay="900"
             >
               <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
               <p className="text-justify text-slate-100 font-medium pb-10">
