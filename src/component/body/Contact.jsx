@@ -24,12 +24,12 @@ export default function Contact() {
               </div>
               <div className="flex space-x-2">
                 <span className="text-xl font-bold text-slate-100">
-                  0998724266
+                  matundukabamba@gmail.com
                 </span>
               </div>
               <div className="flex space-x-2">
                 <span className="text-xl font-bold text-slate-100">
-                  0998724266
+                  
                 </span>
               </div>
               <div className="flex space-x-2">
