@@ -59,7 +59,7 @@ export default function About() {
               </p>
 
               <button
-                data-aos="zoom-in-up"
+                data-aos="zoom-in-right"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
                 data-aos-delay="250"
