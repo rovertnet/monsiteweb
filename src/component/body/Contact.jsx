@@ -8,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa6";
 export default function Contact() {
   return (
     <>
-      <div className=" bg-black py-12">
+      <div className=" bg-black pt-12 pb-20">
         <h2
           data-aos="fade-down"
           data-aos-easing="linear"
@@ -53,17 +53,17 @@ export default function Contact() {
                 <div className="flex flex-col md:flex-col gap-5">
                   <input
                     type="text"
-                    className="px-3 py-2 outline outline-1 focus:outline-0 text-slate-300 bg-slate-900 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
+                    className="px-3 py-2 outline outline-1 focus:outline-0 text-slate-700 bg-white/5 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
                     placeholder="Nom complet"
                   />
                   <input
                     type="mail"
-                    className="px-3 py-2 outline outline-1 focus:outline-0 text-slate-300 bg-slate-900 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
+                    className="px-3 py-2 outline outline-1 focus:outline-0 text-slate-700 bg-white/5 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
                     placeholder="Votre mail"
                   />
                   <input
                     type="text"
-                    className="px-3 py-2 outline outline-1 focus:outline-0 text-slate-300 bg-slate-900 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
+                    className="px-3 py-2 outline outline-1 focus:outline-0 text-slate-700 bg-white/5 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
                     placeholder="Sujet de votre message"
                   />
                   <textarea
@@ -71,7 +71,8 @@ export default function Contact() {
                     id=""
                     cols={20}
                     rows={5}
-                    className="px-3 py-2 outline outline-1 focus:outline-0 text-slate-300 bg-slate-900 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
+                    className="px-3 py-2 outline outline-1 focus:outline-0 text-slate-700 bg-white/5 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
+                    placeholder="Votre message"
                   ></textarea>
                 </div>
               </form>
