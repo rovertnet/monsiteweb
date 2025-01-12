@@ -34,6 +34,9 @@ export default function About() {
 
               <p
                 data-aos="zoom-in-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+                data-aos-delay="150"
                 className="font-medium text-lg text-slate-300 py-3 text-justify md:max-w-xl"
               >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
@@ -42,14 +45,26 @@ export default function About() {
                 alias cupiditate repudiandae reprehenderit cum!
               </p>
 
-              <p className="font-medium text-lg text-slate-300 py-3 text-justify md:max-w-xl">
+              <p
+                data-aos="zoom-in-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+                data-aos-delay="200"
+                className="font-medium text-lg text-slate-300 py-3 text-justify md:max-w-xl"
+              >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
                 eum rerum minus earum animi voluptatum deleniti laudantium ad
                 officia alias? Magnam temporibus praesentium odio, laudantium
                 alias cupiditate repudiandae reprehenderit cum!
               </p>
 
-              <button className="font-semibold text-xl px-5 py-2 mt-6 mb-6 rounded-md text-white bg-purple-600 hover:bg-purple-500 flex justify-between items-center">
+              <button
+                data-aos="zoom-in-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+                data-aos-delay="250"
+                className="font-semibold text-xl px-5 py-2 mt-6 mb-6 rounded-md text-white bg-purple-600 hover:bg-purple-500 flex justify-between items-center"
+              >
                 Téléchargez mon CV
                 <FaDownload />
               </button>
