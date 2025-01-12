@@ -18,11 +18,25 @@ export default function Contact() {
           <div className="flex flex-col md:flex gap-6">
             <div className="bg-white/5 rounded-md px-7 py-7">
               <div className="flex space-x-2">
-                <span className="">0998724266</span>
+                <span className="text-xl font-bold text-slate-100">
+                  0998724266
+                </span>
               </div>
-              <div className="flex space-x-2"></div>
-              <div className="flex space-x-2"></div>
-              <div className="flex space-x-2"></div>
+              <div className="flex space-x-2">
+                <span className="text-xl font-bold text-slate-100">
+                  0998724266
+                </span>
+              </div>
+              <div className="flex space-x-2">
+                <span className="text-xl font-bold text-slate-100">
+                  0998724266
+                </span>
+              </div>
+              <div className="flex space-x-2">
+                <span className="text-xl font-bold text-slate-100">
+                  0998724266
+                </span>
+              </div>
             </div>
 
             <div className=""></div>
