@@ -16,8 +16,13 @@ export default function Contact() {
 
         <div className="md:mx-40 mx-6">
           <div className="flex flex-col md:flex gap-6">
-            <div className="flex flex-col gap-5">
-              
+            <div className="bg-white/5 rounded-md px-7 py-7">
+              <div className="flex space-x-2">
+                
+              </div>
+              <div className="flex space-x-2"></div>
+              <div className="flex space-x-2"></div>
+              <div className="flex space-x-2"></div>
             </div>
           </div>
         </div>
