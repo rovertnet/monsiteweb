@@ -19,7 +19,7 @@ export default function Contact() {
             <div className="bg-white/5 rounded-md px-7 py-7">
               <div className="flex space-x-2">
                 <span className="text-xl font-bold text-slate-100">
-                  0998724266
+                  +243 998724266
                 </span>
               </div>
               <div className="flex space-x-2">
@@ -29,12 +29,12 @@ export default function Contact() {
               </div>
               <div className="flex space-x-2">
                 <span className="text-xl font-bold text-slate-100">
-                  
+                  +243 823444705
                 </span>
               </div>
               <div className="flex space-x-2">
                 <span className="text-xl font-bold text-slate-100">
-                  0998724266
+                  Robert Matundu
                 </span>
               </div>
             </div>
