@@ -33,7 +33,7 @@ export default function About() {
               </h2>
 
               <p
-                data-aos="zoom-in-up"
+                data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
                 data-aos-delay="150"
@@ -46,7 +46,7 @@ export default function About() {
               </p>
 
               <p
-                data-aos="zoom-in-up"
+                data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
                 data-aos-delay="200"

@@ -21,7 +21,13 @@ export default function Service() {
   return (
     <>
       <div className=" block pt-10 pb-10 bg-black">
-        <h2 className="font-bold uppercase text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-700 from-10% via-white via-30% to-orange-500 to-90% ... text-2xl md:text-text-3xl pt-3 pb-10">
+        <h2
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+          data-aos-delay="100"
+          className="font-bold uppercase text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-700 from-10% via-white via-30% to-orange-500 to-90% ... text-2xl md:text-text-3xl pt-3 pb-10"
+        >
           Mes Services
         </h2>
         <div className="md:mx-40 mx-6">
@@ -31,7 +37,6 @@ export default function Service() {
               whileTap={{ scale: 0.95 }}
               onHoverStart={() => console.log("hover started!")}
               className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5 cursor-pointer"
-
             >
               <div className="flex space-x-5 ">
                 <SiGooglemarketingplatform className="text-5xl font-extrabold text-slate-300 pt-1" />
