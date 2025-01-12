@@ -16,7 +16,9 @@ export default function Contact() {
 
         <div className="md:mx-40 mx-6">
           <div className="flex flex-col md:flex gap-6">
-            <div className=""></div>
+            <div className="flex flex-col gap-5">
+              
+            </div>
           </div>
         </div>
       </div>
