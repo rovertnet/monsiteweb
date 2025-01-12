@@ -1,9 +1,9 @@
-
+import { IoMail } from "react-icons/io5";
 
 export default function Contact() {
   return (
     <>
-      <div className=" bg-black">
+      <div className=" bg-black py-12">
         <h2
           data-aos="fade-down"
           data-aos-easing="linear"
@@ -23,6 +23,7 @@ export default function Contact() {
                 </span>
               </div>
               <div className="flex space-x-2 pb-5">
+                <IoMail className="text-xl font-bold text-slate-100" />
                 <span className="text-xl font-bold text-slate-100">
                   matundukabamba@gmail.com
                 </span>
@@ -44,7 +45,7 @@ export default function Contact() {
                 <div className="flex flex-col md:flex-col gap-5">
                   <input
                     type="text"
-                    className="px-3 py-2 outline-0 bg-black border-[1px] "
+                    className="px-3 py-2 outline-0 bg-black border-[1px] border-slate-400 rounded-md w-full"
                     placeholder="Nom complet"
                   />
                 </div>
