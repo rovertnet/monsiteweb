@@ -4,8 +4,22 @@ import proimg3 from "../../assets/image/pro1.jpg"
 
 import { FaExternalLinkAlt } from "react-icons/fa";
 
+import AOS from "aos";
+
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 
 export default function Project() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      delay: 200,
+      once: false,
+    });
+  }, []);
+
   return (
     <>
       <div className="block  bg-black">
