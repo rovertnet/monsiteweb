@@ -1,4 +1,9 @@
 import { IoMail } from "react-icons/io5";
+import { FaPhoneAlt } from "react-icons/fa";
+import { BsWhatsapp } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa6";
+
+
 
 export default function Contact() {
   return (
@@ -18,6 +23,7 @@ export default function Contact() {
           <div className="flex gap-6">
             <div className="bg-white/5 rounded-md px-7 py-7">
               <div className="flex space-x-2 py-5">
+                <FaPhoneAlt className="text-xl font-bold text-slate-100" />
                 <span className="text-xl font-bold text-slate-100">
                   +243 998724266
                 </span>
@@ -29,11 +35,13 @@ export default function Contact() {
                 </span>
               </div>
               <div className="flex space-x-2 pb-5">
+                <BsWhatsapp className="text-xl font-bold text-green-500" />
                 <span className="text-xl font-bold text-slate-100">
                   +243 823444705
                 </span>
               </div>
               <div className="flex space-x-2">
+                <BsWhatsapp className="text-xl font-bold text-green-500" />
                 <span className="text-xl font-bold text-slate-100">
                   Robert Matundu
                 </span>
