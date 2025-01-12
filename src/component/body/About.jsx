@@ -1,8 +1,21 @@
 import aboutimg from "../../assets/image/RP2.jpeg"
 import { FaDownload } from "react-icons/fa";
+import AOS from "aos";
+
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 
 export default function About() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      delay: 200,
+      once: false,
+    });
+  }, []);
+
   return (
     <>
       <div className="block bg-black pt-5 pb-10">
