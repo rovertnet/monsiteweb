@@ -49,7 +49,7 @@ export default function Contact() {
             </div>
 
             <div className=" w-full">
-              <form action="">
+              <form action="#">
                 <div className="flex flex-col md:flex-col gap-5">
                   <input
                     type="text"
