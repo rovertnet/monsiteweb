@@ -75,6 +75,7 @@ export default function Contact() {
                     placeholder="Votre message"
                   ></textarea>
                 </div>
+                
               </form>
             </div>
           </div>
