@@ -15,7 +15,7 @@ export default function Contact() {
         </h2>
 
         <div className="md:mx-40 mx-6">
-          <div className="flex flex-row-reverse md:flex gap-6">
+          <div className="flex gap-6">
             <div className="bg-white/5 rounded-md px-7 py-7">
               <div className="flex space-x-2 py-5">
                 <span className="text-xl font-bold text-slate-100">
@@ -42,7 +42,11 @@ export default function Contact() {
             <div className="">
               <form action="">
                 <div className="flex flex-col md:flex-col gap-5">
-                  <input type="text" className="px-3 py-2 outline-0 bg-black border-[1px] " placeholder="Nom complet" />
+                  <input
+                    type="text"
+                    className="px-3 py-2 outline-0 bg-black border-[1px] "
+                    placeholder="Nom complet"
+                  />
                 </div>
               </form>
             </div>
