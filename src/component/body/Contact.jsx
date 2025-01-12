@@ -53,19 +53,24 @@ export default function Contact() {
                 <div className="flex flex-col md:flex-col gap-5">
                   <input
                     type="text"
-                    className="px-3 py-2 outline outline-1 focus:outline-0 bg-slate-800 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
+                    className="px-3 py-2 outline outline-1 focus:outline-0 bg-slate-900 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
                     placeholder="Nom complet"
                   />
                   <input
                     type="mail"
-                    className="px-3 py-2 outline outline-1 focus:outline-0 bg-slate-800 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
+                    className="px-3 py-2 outline outline-1 focus:outline-0 bg-slate-900 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
                     placeholder="Votre mail"
                   />
                   <input
                     type="text"
-                    className="px-3 py-2 outline outline-1 focus:outline-0 bg-slate-800 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
+                    className="px-3 py-2 outline outline-1 focus:outline-0 bg-slate-900 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
                     placeholder="Sujet de votre message"
                   />
+                  <textarea
+                    name=""
+                    id=""
+                    className="px-3 py-2 outline outline-1 focus:outline-0 bg-slate-900 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
+                  ></textarea>
                 </div>
               </form>
             </div>
