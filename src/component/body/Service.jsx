@@ -2,9 +2,22 @@ import { SiGooglemarketingplatform } from "react-icons/si";
 import { FaCode } from "react-icons/fa";
 import { TbWorldBolt } from "react-icons/tb";
 import {motion} from "framer-motion"
+import AOS from "aos";
+
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 
 export default function Service() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      delay: 200,
+      once: false,
+    });
+  }, []);
+
   return (
     <>
       <div className=" block pt-10 pb-10 bg-black">
@@ -18,6 +31,7 @@ export default function Service() {
               whileTap={{ scale: 0.95 }}
               onHoverStart={() => console.log("hover started!")}
               className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5 cursor-pointer"
+
             >
               <div className="flex space-x-5 ">
                 <SiGooglemarketingplatform className="text-5xl font-extrabold text-slate-300 pt-1" />
