@@ -2,7 +2,21 @@ import { FaQuoteLeft } from "react-icons/fa";
 import rp from "../../assets/image/RP1.jpeg";
 import {motion} from "framer-motion"
 
+import AOS from "aos";
+
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 export default function Clients() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      delay: 200,
+      once: false,
+    });
+  }, []);
+
   return (
     <>
       <div className=" bg-black pt-10 pb-10 block">
@@ -23,6 +37,7 @@ export default function Clients() {
               whileTap={{ scale: 0.95 }}
               onHoverStart={() => console.log("hover started!")}
               className="bg-white/5 px-7 py-7 hover:border-[1px] hover:border-slate-400 rounded-md cursor-pointer"
+
             >
               <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
               <p className="text-justify text-slate-100 font-medium pb-10">
