@@ -56,7 +56,9 @@ export default function About() {
               src={aboutimg}
               alt={aboutimg}
               data-aos="flip-right"
-              data-aos-delay="200"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              data-aos-delay="400"
               className="md:w-96 md:h-96 w-96 rounded-md border-[10px] border-slate-100  h-96 object-cover"
             />
           </div>
