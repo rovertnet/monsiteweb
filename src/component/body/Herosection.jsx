@@ -56,42 +56,42 @@ export default function Herosection() {
           <div className="pt-10 grid grid-cols-3 md:grid-flow-col lg:grid-flow-col gap-3 z-10">
             <div
               data-aos="fade-right"
-              data-aos-delay="50"
+              data-aos-delay="200"
               className=" box py-4 md:py-4 lg:py-4 px-4 md:px-4 lg:px-4 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer"
             >
               <BsLinkedin className="text-white text-2xl md:text-2xl font-bold" />
             </div>
             <div
               data-aos="fade-right"
-              data-aos-delay="150"
+              data-aos-delay="400"
               className="py-4 md:py-4 lg:py-4 px-4 md:px-4 lg:px-4 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer"
             >
               <BsInstagram className="text-white text-2xl md:text-2xl font-bold" />
             </div>
             <div
               data-aos="fade-right"
-              data-aos-delay="300"
+              data-aos-delay="600"
               className="py-4 md:py-4 lg:py-4 px-4 md:px-4 lg:px-4 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer"
             >
               <FaSquareFacebook className="text-white text-2xl md:text-2xl font-bold" />
             </div>
             <div
               data-aos="fade-right"
-              data-aos-delay="450"
+              data-aos-delay="800"
               className="py-4 md:py-4 lg:py-4 px-4 md:px-4 lg:px-4 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer"
             >
               <FaTiktok className="text-white text-2xl md:text-2xl font-bold" />
             </div>
             <div
               data-aos="fade-right"
-              data-aos-delay="600"
+              data-aos-delay="1000"
               className="py-4 md:py-3 lg:py-4 px-4 md:px-4 lg:px-4 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer"
             >
               <FaSquareXTwitter className="text-white text-2xl md:text-2xl font-bold" />
             </div>
             <div
               data-aos="fade-right"
-              data-aos-delay="750"
+              data-aos-delay="1200"
               className="py-4 md:py-4 lg:py-4 px-4 md:px-4 lg:px-4 rounded-full bg-white/10 hover:-translate-y-3 hover:transition-all hover:duration-300 cursor-pointer"
             >
               <FaGithub className="text-white text-2xl md:text-2xl font-bold" />
