@@ -17,7 +17,7 @@ export default function Herosection() {
 
   useEffect(() => {
     AOS.init({
-      duration:100,
+      duration:800,
       delay:200,
       once:false,
     })
