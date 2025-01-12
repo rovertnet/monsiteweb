@@ -17,17 +17,17 @@ export default function Contact() {
         <div className="md:mx-40 mx-6">
           <div className="flex flex-col md:flex gap-6">
             <div className="bg-white/5 rounded-md px-7 py-7">
-              <div className="flex space-x-2">
+              <div className="flex space-x-2 py-5">
                 <span className="text-xl font-bold text-slate-100">
                   +243 998724266
                 </span>
               </div>
-              <div className="flex space-x-2">
+              <div className="flex space-x-2 pb-5">
                 <span className="text-xl font-bold text-slate-100">
                   matundukabamba@gmail.com
                 </span>
               </div>
-              <div className="flex space-x-2">
+              <div className="flex space-x-2 pb-5">
                 <span className="text-xl font-bold text-slate-100">
                   +243 823444705
                 </span>
@@ -39,7 +39,13 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className=""></div>
+            <div className="">
+              <form action="">
+                <div className="flex flex-col md:flex-col gap-5">
+                  <input type="text" className="px-3 py-2 outline-0 bg-black border-[1px]" placeholder="Nom complet" />
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
