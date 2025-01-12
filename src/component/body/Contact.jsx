@@ -20,7 +20,7 @@ export default function Contact() {
         </h2>
 
         <div className="md:mx-40 mx-6">
-          <div className="flex gap-6">
+          <div className="flex gap-40">
             <div className="bg-white/5 rounded-md px-7 py-7">
               <div className="flex space-x-2 py-5">
                 <FaPhoneAlt className="text-2xl font-bold text-slate-100" />
@@ -53,7 +53,7 @@ export default function Contact() {
                 <div className="flex flex-col md:flex-col gap-5">
                   <input
                     type="text"
-                    className="px-3 py-2 outline-0 bg-black border-[1px] border-slate-400 rounded-md w-full"
+                    className="px-3 py-2 outline outline-1 focus:outline-0 bg-slate-950 border-[1px] border-slate-400 rounded-md w-full"
                     placeholder="Nom complet"
                   />
                 </div>
