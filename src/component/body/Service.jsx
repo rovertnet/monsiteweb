@@ -66,7 +66,7 @@ export default function Service() {
               onHoverStart={() => console.log("hover started!")}
               className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5 cursor-pointer"
               data-aos="fade-up"
-              data-aos-duration="1250"
+              data-aos-duration="1500"
               data-aos-delay="450"
             >
               <div className="flex space-x-5 ">
@@ -94,7 +94,7 @@ export default function Service() {
               onHoverStart={() => console.log("hover started!")}
               className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5 cursor-pointer"
               data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos-duration="2000"
               data-aos-delay="650"
             >
               <div className="flex space-x-5 ">
