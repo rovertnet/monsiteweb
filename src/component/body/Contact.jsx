@@ -87,9 +87,9 @@ export default function Contact() {
                     placeholder="Votre message"
                   ></textarea>
                 </div>
-                <div className="pt-5 flex justify-end items-end">
+                <div className="pt-5 flex md:justify-end justify-center md:items-end items-center">
                   <button
-                    className="px-10 py-3 bg-purple-700 hover:bg-purple-500 hover:duration-300 hover:transition-all text-white text-xl font-bold rounded-md"
+                    className="px-36 md:px-10 py-3 bg-purple-700 hover:bg-purple-500 hover:duration-300 hover:transition-all text-white text-xl font-bold rounded-md"
                     type="submit"
                   >
                     Envoyer
