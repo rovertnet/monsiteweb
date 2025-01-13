@@ -21,7 +21,13 @@ export default function Contact() {
 
         <div className="md:mx-40 mx-6">
           <div className="flex gap-40">
-            <div className="bg-white/5 rounded-md px-7 py-7">
+            <div
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              data-aos-delay="300"
+              className="bg-white/5 rounded-md px-7 py-7"
+            >
               <div className="flex space-x-2 py-10">
                 <FaPhoneAlt className="text-2xl font-bold text-slate-100" />
                 <span className="text-lg font-bold text-slate-300">
@@ -48,7 +54,13 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className=" w-full">
+            <div
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-delay="600"
+              className=" w-full"
+            >
               <form action="#">
                 <div className="flex flex-col md:flex-col gap-5">
                   <input
