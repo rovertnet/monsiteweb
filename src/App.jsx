@@ -7,6 +7,7 @@ import Progresse from "./component/body/Progresse";
 import Project from "./component/body/Project";
 import Service from "./component/body/Service";
 import Skils from "./component/body/Skils";
+import Footer from "./component/footer/Footer";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Clients />
         <Contact />
       </div>
+      <Footer />
     </>
   );
 }
