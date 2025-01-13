@@ -8,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa6";
 export default function Contact() {
   return (
     <>
-      <div className=" bg-black pt-12 pb-20">
+      <div className="block bg-black pt-12 pb-20">
         <h2
           data-aos="fade-down"
           data-aos-easing="linear"
@@ -20,7 +20,7 @@ export default function Contact() {
         </h2>
 
         <div className="md:mx-40 mx-6">
-          <div className="flex flex-col-reverse md:flex-row gap-40">
+          <div className="flex flex-col md:flex-row gap-40">
             <div
               data-aos="fade-up"
               data-aos-easing="linear"
