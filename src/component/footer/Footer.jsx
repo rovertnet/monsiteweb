@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="bg-white/5 py-10">
           <div className=""></div>
 
-          <p
+          <span
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500"
@@ -27,7 +27,7 @@ export default function Footer() {
             className=" text-gray-300 text-xl text-center md:text-xl"
           >
             © RovertNet {new Date().getFullYear()}. tous droits réservés
-          </p>
+          </span>
         </div>
       </div>
     </>
