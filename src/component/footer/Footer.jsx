@@ -1,6 +1,18 @@
+import AOS from "aos";
 
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Footer() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      delay: 200,
+      once: false,
+    });
+  }, []);
+
   return (
     <>
       <div className="bg-black pt-12">
@@ -8,7 +20,7 @@ export default function Footer() {
           <div className=""></div>
 
           <p
-            data-aos="fade-up"
+            data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500"
             data-aos-delay="100"
