@@ -22,19 +22,19 @@ export default function Contact() {
         <div className="md:mx-40 mx-6">
           <div className="flex gap-40">
             <div className="bg-white/5 rounded-md px-7 py-7">
-              <div className="flex space-x-2 py-5">
+              <div className="flex space-x-2 py-10">
                 <FaPhoneAlt className="text-2xl font-bold text-slate-100" />
                 <span className="text-lg font-bold text-slate-300">
                   +243 998724266
                 </span>
               </div>
-              <div className="flex space-x-2 pb-5">
+              <div className="flex space-x-2 pb-10">
                 <IoMail className="text-2xl font-bold text-slate-100" />
                 <span className="text-lg font-bold text-slate-300">
                   matundukabamba@gmail.com
                 </span>
               </div>
-              <div className="flex space-x-2 pb-5">
+              <div className="flex space-x-2 pb-10">
                 <BsWhatsapp className="text-2xl font-bold text-green-500" />
                 <span className="text-lg font-bold text-slate-300">
                   +243 823444705
@@ -77,7 +77,7 @@ export default function Contact() {
                 </div>
                 <div className="pt-5 flex justify-end items-end">
                   <button
-                    className="px-10 py-3 bg-purple-700 text-white text-xl font-bold rounded-md"
+                    className="px-10 py-3 bg-purple-700 hover:bg-purple-500 hover:duration-300 hover:transition-all text-white text-xl font-bold rounded-md"
                     type="submit"
                   >
                     Envoyer
