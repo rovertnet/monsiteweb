@@ -71,8 +71,9 @@ export default function Project() {
 
             <div
               data-aos="fade-up"
-              data-aos-duration="1500"
-              data-aos-delay="400"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-delay="1000"
               className="bg-white/5 rounded-md"
             >
               <div className="">
@@ -104,9 +105,10 @@ export default function Project() {
             </div>
 
             <div
-              data-aos="fade-up"
-              data-aos-duration="1500"
-              data-aos-delay="600"
+              data-aos="fade-left"
+              data-aos-offset="450"
+              data-aos-easing="ease-in-sine"
+              data-aos-delay="1000"
               className="bg-white/5 rounded-md"
             >
               <div className="">
