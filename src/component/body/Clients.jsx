@@ -19,7 +19,7 @@ export default function Clients() {
 
   return (
     <>
-      <div className=" bg-black pt-10 pb-10 block">
+      <div className=" bg-black pt-20 pb-10 block">
         <h2
           data-aos="fade-down"
           data-aos-easing="linear"
