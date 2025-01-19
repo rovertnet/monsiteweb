@@ -119,7 +119,7 @@ export default function Skils() {
               data-aos="fade-left"
               data-aos-offset="400"
               data-aos-easing="ease-in-sine"
-              data-aos-delay="600"
+              data-aos-delay="400"
               className="bg-white/5 px-7 py-5 rounded-lg"
             >
               <h2 className="font-semibold text-xl text-center text-orange-600">
