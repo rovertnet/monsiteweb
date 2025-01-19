@@ -20,7 +20,7 @@ export default function Service() {
 
   return (
     <>
-      <div className=" block pt-10 pb-10 bg-black">
+      <div className=" block pt-20 pb-10 bg-black">
         <h2
           data-aos="fade-down"
           data-aos-easing="linear"
