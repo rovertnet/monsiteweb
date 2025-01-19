@@ -65,7 +65,7 @@ export default function Service() {
               whileTap={{ scale: 0.95 }}
               onHoverStart={() => console.log("hover started!")}
               className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5 cursor-pointer"
-              data-aos="fade-up"
+              data-aos="fade-left"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
               data-aos-delay="600"
@@ -94,9 +94,10 @@ export default function Service() {
               whileTap={{ scale: 0.95 }}
               onHoverStart={() => console.log("hover started!")}
               className="py-5 px-5 rounded-lg border-[1px] border-slate-500 bg-white/5 cursor-pointer"
-              data-aos="fade-up"
-              data-aos-duration="2000"
-              data-aos-delay="650"
+              data-aos="fade-left"
+              data-aos-offset="400"
+              data-aos-easing="ease-in-sine"
+              data-aos-delay="400"
             >
               <div className="flex space-x-5 ">
                 <TbWorldBolt className="text-5xl font-extrabold text-slate-300 pt-1" />

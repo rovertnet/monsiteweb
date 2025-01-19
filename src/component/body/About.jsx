@@ -18,7 +18,7 @@ export default function About() {
 
   return (
     <>
-      <div className="block bg-black pt-5 pb-10">
+      <div className="block bg-black pt-20 pb-10">
         <div className="flex justify-center items-center">
           <div className="flex flex-col-reverse md:flex-row gap-10 md:gap-40 md:mx-40 mx-6">
             <div className="flex flex-col">
