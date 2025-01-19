@@ -20,7 +20,7 @@ export default function Contact() {
         </h2>
 
         <div className="md:mx-40 mx-6">
-          <div className="flex flex-col md:flex-row gap-40">
+          <div className="flex flex-col md:flex-row md:gap-40 gap-20 ">
             <div
               data-aos="fade-up"
               data-aos-easing="linear"
