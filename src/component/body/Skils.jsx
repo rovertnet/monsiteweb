@@ -30,6 +30,8 @@ export default function Skils() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 py-10">
             <div
               data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
               data-aos-delay="300"
               className="bg-white/5 px-7 py-5 rounded-lg"
             >
@@ -115,6 +117,8 @@ export default function Skils() {
             {/* la parie backend */}
             <div
               data-aos="fade-left"
+              data-aos-offset="600"
+              data-aos-easing="ease-in-sine"
               data-aos-delay="600"
               className="bg-white/5 px-7 py-5 rounded-lg"
             >
