@@ -39,13 +39,24 @@ export default function Navbar() {
 
       <div className="">
         <div
-          className={`bg-white/10 px-20 py-5 my-20 mx-24 md:mx-[300px] rounded-lg space-y-8 ${
+          className={`bg-slate-500 px-20 py-5 my-20 mx-24 md:mx-[595px] rounded-lg space-y-8 ${
             openMenu
               ? "block fixed bottom-0 md:bottom-0 right-O left-0"
               : "hidden "
           }`}
         >
-          <a href="href">Accueil</a>
+          <div className="flex flex-col gap-5">
+            <a href="href">Accueil</a>
+            <a href="href">Accueil</a>
+            <a href="href">Accueil</a>
+            <a href="href">Accueil</a>
+            <a href="href">Accueil</a>
+            <a href="href">Accueil</a>
+            <a href="href">Accueil</a>
+            <a href="href">Accueil</a>
+            <a href="href">Accueil</a>
+            <a href="href">Accueil</a>
+          </div>
         </div>
       </div>
     </>
