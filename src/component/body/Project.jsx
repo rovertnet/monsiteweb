@@ -22,7 +22,7 @@ export default function Project() {
 
   return (
     <>
-      <div className="block  bg-black">
+      <div className="block pt-20 bg-black">
         <div className="mx-6 md:mx-36 pt-10 pb-14">
           <h2
             data-aos="fade-down"
