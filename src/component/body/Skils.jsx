@@ -117,7 +117,7 @@ export default function Skils() {
             {/* la parie backend */}
             <div
               data-aos="fade-left"
-              data-aos-offset="600"
+              data-aos-offset="500"
               data-aos-easing="ease-in-sine"
               data-aos-delay="600"
               className="bg-white/5 px-7 py-5 rounded-lg"
