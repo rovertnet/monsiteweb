@@ -67,7 +67,8 @@ export default function Clients() {
               onHoverStart={() => console.log("hover started!")}
               className="bg-white/5 px-7 py-7 hover:border-[1px] hover:border-slate-400 rounded-md cursor-pointer"
               data-aos="fade-up"
-              data-aos-duration="3500"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
               data-aos-delay="600"
             >
               <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
@@ -96,7 +97,8 @@ export default function Clients() {
               onHoverStart={() => console.log("hover started!")}
               className="bg-white/5 px-7 py-7 hover:border-[1px] hover:border-slate-400 rounded-md cursor-pointer"
               data-aos="fade-up"
-              data-aos-duration="4000"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
               data-aos-delay="900"
             >
               <FaQuoteLeft className="text-purple-500 text-5xl text-center font-bold pb-3" />
