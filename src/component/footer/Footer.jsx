@@ -20,7 +20,7 @@ export default function Footer() {
           <div className=""></div>
 
           <div data-fade="">
-            <span className=" text-gray-300 text-lg flex justify-center items-center md:text-xl">
+            <span className=" text-gray-300 text-sm flex justify-center items-center md:text-base">
               © RovertNet {new Date().getFullYear()}. tous droits réservés
             </span>
           </div>
