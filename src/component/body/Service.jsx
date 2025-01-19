@@ -26,7 +26,7 @@ export default function Service() {
           data-aos-easing="linear"
           data-aos-duration="1500"
           data-aos-delay="100"
-          className="font-bold uppercase text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-700 from-10% via-white via-30% to-orange-500 to-90% ... text-2xl md:text-text-3xl pt-3 pb-10"
+          className="font-bold uppercase text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-700 from-10% via-white via-30% to-orange-500 to-90% ... text-2xl md:text-text-3xl pt-10 pb-10"
         >
           Mes Services
         </h2>
