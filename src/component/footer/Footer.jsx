@@ -20,7 +20,7 @@ export default function Footer() {
           <div className=""></div>
 
           <span
-            className=" text-gray-300 text-xl flex  md:text-xl"
+            className=" text-gray-300 text-xl flex justify-center items-center md:text-xl"
           >
             © RovertNet {new Date().getFullYear()}. tous droits réservés
           </span>
