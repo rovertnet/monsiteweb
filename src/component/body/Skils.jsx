@@ -15,7 +15,7 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 export default function Skils() {
   return (
     <>
-      <div className="block pt-10 bg-black">
+      <div className="block pt-20 bg-black">
         <h2
           data-aos="fade-down"
           data-aos-easing="linear"
