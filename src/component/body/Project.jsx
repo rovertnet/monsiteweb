@@ -106,7 +106,7 @@ export default function Project() {
 
             <div
               data-aos="fade-left"
-              data-aos-offset="450"
+              data-aos-offset="400"
               data-aos-easing="ease-in-sine"
               data-aos-delay="950"
               className="bg-white/5 rounded-md"
