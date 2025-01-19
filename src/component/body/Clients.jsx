@@ -96,7 +96,7 @@ export default function Clients() {
               whileTap={{ scale: 0.95 }}
               onHoverStart={() => console.log("hover started!")}
               className="bg-white/5 px-7 py-7 hover:border-[1px] hover:border-slate-400 rounded-md cursor-pointer"
-              data-aos="fade-up"
+              data-aos="fade-left"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
               data-aos-delay="900"
