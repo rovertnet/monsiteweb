@@ -16,7 +16,7 @@ createRoot(document.getElementById("root")).render(
     <div className="bg-black h-screen flex justify-center items-center">
       
       <Navbar />
-      <BrowserRouter>
+      <BrowserRouter className="block">
         <Routes>
           <Route path="/" exact={true} element={<App />} />
           <Route path="/skills" exact={true} element={<Skils />} />

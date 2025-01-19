@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-black h-screen md:h-screen lg:h-screen">
+      <div className="bg-black h-screen md:h-screen lg:h-screen block">
         <Progresse />
 
         <Herosection />
