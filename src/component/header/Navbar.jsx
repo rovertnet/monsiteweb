@@ -3,7 +3,7 @@ import { IoMdClose } from "react-icons/io";
 
 import logo from "../../assets/image/mon_logo.png";
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { FaHome } from "react-icons/fa";
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false)
@@ -39,7 +39,7 @@ export default function Navbar() {
 
       <div className="">
         <div
-          className={`bg-slate-500 px-10 py-5 fixed my-40 md:my-[470px] mx-20 md:mx-[560px] flex justify-center items-center rounded-lg space-y-8 ${
+          className={`bg-slate-500 px-10 py-5 fixed my-56 md:my-[470px] mx-20 md:mx-[560px] flex justify-center items-center rounded-lg space-y-8 ${
             openMenu
               ? "block fixed bottom-0 md:bottom-0 right-O left-0"
               : "hidden "
