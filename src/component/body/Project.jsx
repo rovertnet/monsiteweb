@@ -34,7 +34,7 @@ export default function Project() {
             Mes Projets
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
             <div
               data-aos="fade-up"
               data-aos-duration="1500"
