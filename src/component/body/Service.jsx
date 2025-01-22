@@ -30,7 +30,7 @@ export default function Service() {
         >
           Mes Services
         </h2>
-        <div className="md:mx-40 mx-6">
+        <div className="md:mx-40 mx-14">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
             <motion.div
               whileHover={{ scale: 1.1 }}
