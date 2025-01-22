@@ -20,7 +20,7 @@ export default function About() {
     <>
       <div className="block bg-black pt-20 pb-10">
         <div className="flex justify-center items-center">
-          <div className="flex flex-col-reverse md:flex-row gap-10 md:gap-32 md:mx-40 mx-6">
+          <div className="flex flex-col-reverse md:flex-row gap-10 md:gap-32 md:mx-40 mx-10">
             <div className="flex flex-col">
               <h2
                 data-aos="fade-down"
