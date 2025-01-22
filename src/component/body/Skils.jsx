@@ -26,7 +26,7 @@ export default function Skils() {
           Mes Compétences
         </h2>
 
-        <div className="md:mx-40 mx-6">
+        <div className="md:mx-40 mx-14">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-14 py-10">
             <div
               data-aos="fade-right"
