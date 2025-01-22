@@ -37,7 +37,9 @@ export default function Contact() {
         setIsSubject("")
         setIsMessage("")
       })
-
+      .catch((error) => {
+        console.log("Erreur d'envoi de message : " , error);
+      })
   }
 
   return (
