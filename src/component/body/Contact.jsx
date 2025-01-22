@@ -2,10 +2,27 @@ import { IoMail } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa6";
+import { useState } from "react";
 
 
 
 export default function Contact() {
+
+  const [isName, setIsName] = useState("")
+  const [isMail, setIsMail] = useState("")
+  const [isSubject, setIsSubject] = useState("")
+  const [isMessage, setIsMessage] = useState("")
+
+  const handleSubmit = (e) =>{
+    e.preventDefault();
+
+    const serviceId = "service_uyajlvq";
+    const templateid = ""
+    const publicKey = ""
+
+
+  }
+
   return (
     <>
       <div className="block bg-black pt-20 pb-20">
