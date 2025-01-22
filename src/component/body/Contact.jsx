@@ -97,7 +97,7 @@ export default function Contact() {
               data-aos-delay="600"
               className=" w-full"
             >
-              <form action="#" onSubmit={handleSubmit}>
+              <form onSubmit={handleSubmit}>
                 <div className="flex flex-col md:flex-col gap-5">
                   <input
                     type="text"
