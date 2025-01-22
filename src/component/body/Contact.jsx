@@ -34,6 +34,7 @@ export default function Contact() {
         console.log("Message envoyé avec succès!", response);
         setIsName("")
         setIsMail("")
+        setIsSubject("")
       })
 
   }
