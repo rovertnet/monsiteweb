@@ -3,6 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa6";
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 
 
@@ -27,6 +28,8 @@ export default function Contact() {
       to_name:"Web Wizard",
       message: isMessage,
     }
+
+    emailjs.send()
   }
 
   return (
