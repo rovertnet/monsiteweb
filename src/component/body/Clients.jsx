@@ -30,7 +30,7 @@ export default function Clients() {
           Clients
         </h2>
 
-        <div className=" md:mx-40 mx-10">
+        <div className=" md:mx-40 mx-14">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-3 gap-14">
             <motion.div
               whileHover={{ scale: 1.1 }}
