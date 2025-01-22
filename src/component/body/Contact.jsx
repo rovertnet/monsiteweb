@@ -29,8 +29,13 @@ export default function Contact() {
       message: isMessage,
     }
 
-    emailjs.send(serviceId, templateid, templateParams, publicKey);
-    
+    emailjs.send(serviceId, templateid, templateParams, publicKey)
+      .then((response) => {
+        console.log("Message envoyé avec succès!", response);
+        setIsName("")
+        setIsMail("")
+      })
+
   }
 
   return (
