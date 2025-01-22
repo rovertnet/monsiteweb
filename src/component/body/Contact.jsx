@@ -55,7 +55,7 @@ export default function Contact() {
           Contact
         </h2>
 
-        <div className="md:mx-40 mx-10">
+        <div className="md:mx-40 mx-14">
           <div className="flex flex-col md:flex-row md:gap-40 gap-20 ">
             <div
               data-aos="fade-up"
