@@ -17,10 +17,16 @@ export default function Contact() {
     e.preventDefault();
 
     const serviceId = "service_uyajlvq";
-    const templateid = ""
-    const publicKey = ""
+    const templateid = "template_pimg5s7";
+    const publicKey = "cPHGWeChbZcSymYzx";
 
-
+    const templateParams = {
+      from_name: isName,
+      from_mail: isMail,
+      from_subject: isSubject,
+      to_name:"Web Wizard",
+      message: isMessage,
+    }
   }
 
   return (
