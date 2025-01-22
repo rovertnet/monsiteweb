@@ -39,10 +39,15 @@ export default function About() {
                 data-aos-delay="150"
                 className="font-medium text-lg text-slate-300 py-3 text-justify md:max-w-xl"
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-                eum rerum minus earum animi voluptatum deleniti laudantium ad
-                officia alias? Magnam temporibus praesentium odio, laudantium
-                alias cupiditate repudiandae reprehenderit cum!
+                Développeur web passionné avec 5 ans d'expérience, je mets mes
+                compétences techniques et ma créativité au service de projets
+                innovants. Spécialisé dans le développement front-end et
+                back-end, je maîtrise des technologies comme HTML, CSS,
+                JavaScript, React, Node.js et PHP, ainsi que des outils modernes
+                tels que Git et Docker. Mon parcours m'a permis de travailler
+                sur des sites vitrines, des plateformes e-commerce et des
+                applications web complexes, toujours avec une attention
+                particulière à l'expérience utilisateur et aux performances.
               </p>
 
               <p
@@ -52,10 +57,14 @@ export default function About() {
                 data-aos-delay="200"
                 className="font-medium text-lg text-slate-300 py-3 text-justify md:max-w-xl"
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-                eum rerum minus earum animi voluptatum deleniti laudantium ad
-                officia alias? Magnam temporibus praesentium odio, laudantium
-                alias cupiditate repudiandae reprehenderit cum!
+                Autonome et rigoureux, je m'engage à fournir des solutions sur
+                mesure, adaptées aux besoins spécifiques de chaque client. J'ai
+                également collaboré étroitement avec des équipes
+                pluridisciplinaires, ce qui m'a permis de développer un
+                excellent sens de la communication et de la gestion de projet.
+                Toujours en quête de nouveaux défis, je suis motivé par l'idée
+                de concevoir des produits qui allient design, fonctionnalité et
+                innovation.
               </p>
 
               <button
