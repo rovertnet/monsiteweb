@@ -29,7 +29,8 @@ export default function Contact() {
       message: isMessage,
     }
 
-    emailjs.send()
+    emailjs.send(serviceId, templateid, templateParams, publicKey);
+    
   }
 
   return (
