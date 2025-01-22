@@ -27,7 +27,7 @@ export default function Skils() {
         </h2>
 
         <div className="md:mx-40 mx-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-14 py-10">
             <div
               data-aos="fade-right"
               data-aos-offset="300"
