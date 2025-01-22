@@ -97,22 +97,28 @@ export default function Contact() {
               data-aos-delay="600"
               className=" w-full"
             >
-              <form action="#">
+              <form action="#" onSubmit={handleSubmit}>
                 <div className="flex flex-col md:flex-col gap-5">
                   <input
                     type="text"
                     className="px-3 py-2 outline outline-1 focus:outline-0 text-slate-700 bg-white/5 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
                     placeholder="Nom complet"
+                    value={isName}
+                    onChange={(e) => setIsName(e.target.value)}
                   />
                   <input
                     type="mail"
                     className="px-3 py-2 outline outline-1 focus:outline-0 text-slate-700 bg-white/5 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
                     placeholder="Votre mail"
+                    value={isMail}
+                    onChange={(e) => setIsMail(e.target.value)}
                   />
                   <input
                     type="text"
                     className="px-3 py-2 outline outline-1 focus:outline-0 text-slate-700 bg-white/5 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
                     placeholder="Sujet de votre message"
+                    value={isSubject}
+                    onChange={(e) => setIsSubject(e.target.value)}
                   />
                   <textarea
                     name=""
@@ -121,6 +127,8 @@ export default function Contact() {
                     rows={5}
                     className="px-3 py-2 outline outline-1 focus:outline-0 text-slate-700 bg-white/5 hover:border-[1px] hover:border-slate-400 rounded-md w-full"
                     placeholder="Votre message"
+                    value={isMessage}
+                    onChange={(e) => setIsMessage(e.target.value)}
                   ></textarea>
                 </div>
                 <div className="pt-5 flex md:justify-end justify-center md:items-end items-center">
